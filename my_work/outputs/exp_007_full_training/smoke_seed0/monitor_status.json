@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "pid": 1059564,
+  "started_at_utc": "2026-11-14T21:06:13.996373+00:00",
+  "event_flush_seconds": 15,
+  "gpu_sample_interval_seconds": 30,
+  "gpu_sampled_process_peak_mib": 956,
+  "gpu_torch_peak_allocated_mib": 349.970703125,
+  "gpu_torch_peak_reserved_mib": 402.0,
+  "nonfinite_scalar_count": 42,
+  "last_logged_iteration": 12,
+  "last_logged_env_steps": 70,
+  "last_logged_policy_updates": 8,
+  "finished_at_utc": "2026-11-14T21:07:05.476223+00:00",
+  "heartbeat_at_utc": "2026-11-14T21:07:05.476240+00:00",
+  "process_wall_seconds": 51.479872182011604
+}

@@ -47,11 +47,10 @@ events.out.tfevents.*
 /my_work/outputs/**/logs/
 
 # BONES-SEED: per-clip results contain motion identifiers and can be large.
-# Commit aggregate summaries/figures; keep detailed licensed-data metadata local.
+# Commit aggregate summaries/figures and the small failure list; keep bulk results local.
 /my_work/outputs/exp_006_bones_benchmark/rand2000.json
 /my_work/outputs/exp_006_bones_benchmark/hard.json
 /my_work/outputs/exp_006_bones_benchmark/full.json
-/my_work/outputs/exp_006_bones_benchmark/failures.csv
 
 # Native training event files and detailed BONES-SEED evaluations remain local.
 /my_work/outputs/exp_007_full_training/**/tb/

@@ -1,0 +1,169 @@
+{
+  "full": {
+    "clips": 40,
+    "failed": 14,
+    "failure_rate": 0.35,
+    "mean_norm_return": 0.6592331845217518,
+    "step_weighted_norm_return": 0.6907718979437343,
+    "mean_norm_return_survived_v1": 0.8113547275017746,
+    "failed_at_end": 0,
+    "frames": 441140,
+    "overflow_steps": 14,
+    "overflow_clips": 11
+  },
+  "segmented": {
+    "clips": 882,
+    "failed": 37,
+    "failure_rate": 0.04195011337868481,
+    "mean_norm_return": 0.8282951806958848,
+    "step_weighted_norm_return": 0.8277338303796248,
+    "mean_norm_return_survived_v1": 0.838010095986017,
+    "failed_at_end": 1,
+    "frames": 437831,
+    "overflow_steps": 18,
+    "overflow_clips": 17
+  },
+  "matched_motions": 40,
+  "source_outcome_groups": {
+    "full_failed_all_segments_passed": 4,
+    "full_failed_some_segments_failed": 10,
+    "full_passed_all_segments_passed": 25,
+    "full_passed_some_segments_failed": 1
+  },
+  "source_balanced_segment_mean": 0.8133996651279212,
+  "omitted_tail_frames": 3309,
+  "segment_length_frames": 500,
+  "fps": 50,
+  "categories": [
+    {
+      "category": "dance",
+      "full_samples": 8,
+      "full_failures": 2,
+      "full_failure_rate": 0.25,
+      "full_mean_score": 0.7148759662599157,
+      "segment_samples": 154,
+      "segment_failures": 3,
+      "segment_failure_rate": 0.01948051948051948,
+      "segment_mean_score": 0.8413930663465907
+    },
+    {
+      "category": "fallAndGetUp",
+      "full_samples": 6,
+      "full_failures": 6,
+      "full_failure_rate": 1.0,
+      "full_mean_score": 0.05898684814472659,
+      "segment_samples": 93,
+      "segment_failures": 30,
+      "segment_failure_rate": 0.3225806451612903,
+      "segment_mean_score": 0.5711342054526579
+    },
+    {
+      "category": "fight",
+      "full_samples": 3,
+      "full_failures": 1,
+      "full_failure_rate": 0.3333333333333333,
+      "full_mean_score": 0.7437085103173408,
+      "segment_samples": 72,
+      "segment_failures": 2,
+      "segment_failure_rate": 0.027777777777777776,
+      "segment_mean_score": 0.8134057589371999
+    },
+    {
+      "category": "fightAndSports",
+      "full_samples": 2,
+      "full_failures": 1,
+      "full_failure_rate": 0.5,
+      "full_mean_score": 0.5057636866943379,
+      "segment_samples": 50,
+      "segment_failures": 0,
+      "segment_failure_rate": 0.0,
+      "segment_mean_score": 0.828712290895217
+    },
+    {
+      "category": "jumps",
+      "full_samples": 3,
+      "full_failures": 1,
+      "full_failure_rate": 0.3333333333333333,
+      "full_mean_score": 0.7573246548818643,
+      "segment_samples": 72,
+      "segment_failures": 0,
+      "segment_failure_rate": 0.0,
+      "segment_mean_score": 0.8019282499949137
+    },
+    {
+      "category": "run",
+      "full_samples": 4,
+      "full_failures": 0,
+      "full_failure_rate": 0.0,
+      "full_mean_score": 0.7957807090209595,
+      "segment_samples": 96,
+      "segment_failures": 0,
+      "segment_failure_rate": 0.0,
+      "segment_mean_score": 0.8195709901504403
+    },
+    {
+      "category": "sprint",
+      "full_samples": 2,
+      "full_failures": 0,
+      "full_failure_rate": 0.0,
+      "full_mean_score": 0.8021391660202016,
+      "segment_samples": 54,
+      "segment_failures": 0,
+      "segment_failure_rate": 0.0,
+      "segment_mean_score": 0.8490475336710611
+    },
+    {
+      "category": "walk",
+      "full_samples": 12,
+      "full_failures": 3,
+      "full_failure_rate": 0.25,
+      "full_mean_score": 0.8328642104009879,
+      "segment_samples": 291,
+      "segment_failures": 2,
+      "segment_failure_rate": 0.006872852233676976,
+      "segment_mean_score": 0.9127123401675107
+    }
+  ],
+  "overflow_affected_units": {
+    "full": [
+      "dance2_subject1",
+      "dance2_subject2",
+      "fight1_subject2",
+      "fight1_subject3",
+      "fightAndSports1_subject4",
+      "jumps1_subject1",
+      "jumps1_subject2",
+      "run1_subject2",
+      "run2_subject4",
+      "sprint1_subject4",
+      "walk3_subject5"
+    ],
+    "segmented": [
+      "dance1_subject2__seg002",
+      "dance1_subject2__seg003",
+      "dance1_subject2__seg006",
+      "dance2_subject1__seg013",
+      "dance2_subject1__seg014",
+      "dance2_subject4__seg006",
+      "fallAndGetUp3_subject1__seg005",
+      "fightAndSports1_subject1__seg008",
+      "jumps1_subject1__seg022",
+      "run2_subject1__seg005",
+      "run2_subject1__seg007",
+      "run2_subject4__seg016",
+      "run2_subject4__seg021",
+      "sprint1_subject4__seg001",
+      "sprint1_subject4__seg024",
+      "walk3_subject1__seg006",
+      "walk3_subject1__seg022"
+    ]
+  },
+  "limitations": [
+    "Capacity overflows drop contacts/constraints: affected results need simulation verification; they are retained without correction.",
+    "Descriptive comparison of different protocols, not a causal drift experiment.",
+    "Each segment starts independently from its reference state; short tails under 250 frames are omitted.",
+    "No repeated seeds or uncertainty estimate; sequence and segment failure rates have different denominators.",
+    "Aggregate JSON does not contain trajectories: no joint RMSE, drift curve or causal failure diagnosis.",
+    "Categories are inferred from LAFAN1 filename prefixes, not paper BONES categories."
+  ]
+}

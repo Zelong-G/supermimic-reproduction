@@ -1,0 +1,22 @@
+{
+  "motion": "walk1_subject1",
+  "recording": "my_work/outputs/exp_004_motion_visualization/recordings/capture_001/walk1_subject1",
+  "start_sample": 0,
+  "stop_sample_exclusive": 600,
+  "start_time_s": 0.0,
+  "stop_time_exclusive_s": 12.0,
+  "width": 1280,
+  "height": 720,
+  "fps": 50,
+  "mp4_written": true,
+  "comparison": {
+    "status": "exact_outcome_match",
+    "historical_failed": false,
+    "historical_fail_step": -1,
+    "observed_failed": false,
+    "observed_fail_step": -1,
+    "fail_step_difference": null,
+    "fail_time_difference_s": null
+  },
+  "note": "Recorded MuJoCo states; no policy inference or dynamics rerun during rendering."
+}

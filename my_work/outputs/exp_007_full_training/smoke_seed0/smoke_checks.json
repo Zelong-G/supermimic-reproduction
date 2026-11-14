@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "finite_forward_metrics": {
+    "wm/loss": 15.081737518310547,
+    "policy/critic_loss": 0.06798524409532547,
+    "policy/imag_objective": 0.606469988822937
+  },
+  "iteration": 12,
+  "policy_updates": 8,
+  "checkpoint_saved_and_reloaded": "my_work/outputs/exp_007_full_training/smoke_seed0/ckpt_latest.pt",
+  "initialization": "new Trainer with resume=None/init_from=None; parameter snapshots taken before run()",
+  "checks": {
+    "wm": {
+      "max_parameter_change": 0.0024019735865294933,
+      "parameters_finite": true,
+      "gradients_present_and_finite": true,
+      "max_optimizer_step": 12
+    },
+    "policy": {
+      "max_parameter_change": 0.0015879999846220016,
+      "parameters_finite": true,
+      "gradients_present_and_finite": true,
+      "max_optimizer_step": 8
+    },
+    "critic": {
+      "max_parameter_change": 0.0016162004321813583,
+      "parameters_finite": true,
+      "gradients_present_and_finite": true,
+      "max_optimizer_step": 8
+    }
+  }
+}

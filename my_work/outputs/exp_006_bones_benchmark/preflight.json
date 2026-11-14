@@ -1,0 +1,47 @@
+{
+  "checked_at_utc": "2026-11-14T19:07:45.776311+00:00",
+  "ready": true,
+  "errors": [],
+  "data": {
+    "manifest_md5": "5bc2aae2efc6f986ab4cf7adbb4d8ffc",
+    "kept_clips": 129491,
+    "rand2000": {
+      "clips": 2000,
+      "md5": "28dfbc14f02146cc05fe62c794d89f01",
+      "expected_clips": 2000,
+      "expected_md5": "28dfbc14f02146cc05fe62c794d89f01"
+    },
+    "hard": {
+      "clips": 130,
+      "md5": "b931bb29b8c786bfdfa34b57c0832caf",
+      "expected_clips": 130,
+      "expected_md5": "b931bb29b8c786bfdfa34b57c0832caf"
+    },
+    "full": {
+      "clips": 129491,
+      "md5": "e588d04ab59d948b86347088dff357f0",
+      "expected_clips": 129491,
+      "expected_md5": "e588d04ab59d948b86347088dff357f0"
+    },
+    "available_npz_files": 142220,
+    "npz_header_fps_samples_checked": 16
+  },
+  "gpu": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "total_mib": 24564,
+      "used_mib": 1,
+      "free_mib": 24080,
+      "utilization_percent": 0
+    }
+  ],
+  "checkpoint": "weights/realmimic_g1_86k.pt",
+  "reference": {
+    "clips": 129491,
+    "mean_norm_return": 0.9545,
+    "failed": 10
+  },
+  "npz_validation_scope": "All filtered names must exist; 16 distributed NPZ headers/FPS checked; data arrays validated by community loader at evaluation.",
+  "full_benchmark_started": false
+}

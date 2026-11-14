@@ -1,0 +1,4 @@
+stage,clips,failed,mean_norm_return,step_weighted_norm_return,failed_at_end,failure_rate,overflow_clips,overflow_steps,num_envs_requested,chunk_size,wall_seconds,comparable_to_full_reference,score_delta_from_full_reference,failed_delta_from_full_reference
+rand2000,2000,0,0.9560830053284285,0.9580370087809622,0,0.0,13,15,1024,2000,228.09006368200062,False,,
+hard,130,1,0.7445887491052615,0.7508716955900925,0,0.007692307692307693,3,3,1024,2000,36.86424232099671,False,,
+full,129491,12,0.9544803753994954,0.958337050806518,0,9.267053308724158e-05,1186,1225,1024,2000,2827.5864674790064,True,-1.9624600504641876e-05,2

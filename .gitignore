@@ -31,6 +31,34 @@
 *.log
 events.out.tfevents.*
 
+# Personal research: commit small JSON/CSV summaries and PNG/PDF figures.
+# Keep datasets, trajectories, raw render frames and videos local.
+/my_work/outputs/**/raw/
+/my_work/outputs/**/frames/
+/my_work/outputs/**/videos/
+/my_work/outputs/**/*.npz
+/my_work/outputs/**/*.npy
+/my_work/outputs/**/*.h5
+/my_work/outputs/**/*.hdf5
+/my_work/outputs/**/*.mp4
+/my_work/outputs/**/*.webm
+/my_work/outputs/**/*.avi
+/my_work/outputs/**/*.gif
+/my_work/outputs/**/logs/
+
+# BONES-SEED: per-clip results contain motion identifiers and can be large.
+# Commit aggregate summaries/figures; keep detailed licensed-data metadata local.
+/my_work/outputs/exp_006_bones_benchmark/rand2000.json
+/my_work/outputs/exp_006_bones_benchmark/hard.json
+/my_work/outputs/exp_006_bones_benchmark/full.json
+/my_work/outputs/exp_006_bones_benchmark/failures.csv
+
+# Native training event files and detailed BONES-SEED evaluations remain local.
+/my_work/outputs/exp_007_full_training/**/tb/
+/my_work/outputs/exp_007_full_training/**/evaluation/*.json
+/my_work/outputs/exp_007_full_training/**/metrics/scalars.csv
+/my_work/outputs/exp_007_full_training/**/*.tmp
+
 # Python
 __pycache__/
 *.py[cod]

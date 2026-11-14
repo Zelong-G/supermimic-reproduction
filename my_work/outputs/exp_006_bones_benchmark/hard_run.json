@@ -1,0 +1,69 @@
+{
+  "stage": "hard",
+  "status": "completed",
+  "started_at_utc": "2026-11-14T18:21:40.896820+00:00",
+  "command": [
+    "/storage/user/zheze/realmimic/.venv/bin/python",
+    "-u",
+    "scripts/eval_benchmark.py",
+    "--ckpt",
+    "weights/realmimic_g1_86k.pt",
+    "--npz-dir",
+    "data/npz/bones_seed",
+    "--clip-list",
+    "data/bench/hard.txt",
+    "--num-envs",
+    "1024",
+    "--chunk-size",
+    "2000",
+    "--device",
+    "cuda:0",
+    "--out",
+    "my_work/outputs/exp_006_bones_benchmark/hard.json"
+  ],
+  "checkpoint": "weights/realmimic_g1_86k.pt",
+  "checkpoint_sha256": "b38d474df238198e8cc28e0e6286ae69b88d91bdd10d2abf8f73df35afea7ae2",
+  "list_path": "data/bench/hard.txt",
+  "list_md5": "b931bb29b8c786bfdfa34b57c0832caf",
+  "manifest_md5": "5bc2aae2efc6f986ab4cf7adbb4d8ffc",
+  "num_envs_requested": 1024,
+  "chunk_size": 2000,
+  "effective_envs_per_chunk": [
+    130
+  ],
+  "device": "cuda:0",
+  "gpu_before": {
+    "index": 0,
+    "name": "NVIDIA GeForce RTX 4090",
+    "total_mib": 24564,
+    "used_mib": 1,
+    "free_mib": 24080,
+    "utilization_percent": 0
+  },
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "mujoco": "3.16.0",
+    "mujoco-warp": "3.16.0",
+    "warp-lang": "1.18.0",
+    "mjlab": "1.6.0"
+  },
+  "community_evaluator_sha256": "8002705a17705bc83b516f68760e954a2bce832f37445a4f071ad8b8e9a007e7",
+  "experiment_runner_sha256": "f6496eea93f39d42f207d94bf971045e241649b534badd4d19bfef6c6da2dab1",
+  "git_head": "f851af038d7e1bca1131a6107a21ea21c904f197",
+  "training_performed": false,
+  "policy_weights": "policy (not EMA)",
+  "benchmark_protocol": "Community run_benchmark: deterministic start, no noise/reset noise/domain randomization, spec gains, seed 0; env_kwargs from checkpoint",
+  "result": {
+    "clips": 130,
+    "failed": 1,
+    "mean_norm_return": 0.7445887491052615,
+    "step_weighted_norm_return": 0.7508716955900925,
+    "failed_at_end": 0,
+    "failure_rate": 0.007692307692307693,
+    "overflow_clips": 3,
+    "overflow_steps": 3
+  },
+  "finished_at_utc": "2026-11-14T18:22:18.208138+00:00",
+  "wall_seconds": 36.86424232099671
+}

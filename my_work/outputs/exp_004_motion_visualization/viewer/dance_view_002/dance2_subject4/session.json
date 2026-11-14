@@ -1,0 +1,19 @@
+{
+  "motion": "dance2_subject4",
+  "viewer": "viser",
+  "status": "started_no_completed_episode",
+  "historical": {
+    "frames": 11284,
+    "failed": true,
+    "fail_step": 3046,
+    "norm_return": 0.21241360799254613,
+    "overflow_steps": 0
+  },
+  "comparison": {
+    "status": "not_measured",
+    "historical_failed": true,
+    "historical_fail_step": 3046
+  },
+  "pause_step": 2996,
+  "num_envs": 1
+}

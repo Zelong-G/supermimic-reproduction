@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/../../.."
+exec .venv/bin/python my_work/experiments/exp_006_bones_benchmark/analyze.py "$@"

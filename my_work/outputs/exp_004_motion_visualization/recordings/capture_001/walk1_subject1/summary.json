@@ -1,0 +1,80 @@
+{
+  "motion": "walk1_subject1",
+  "mode": "benchmark_recording_terminate_true",
+  "result": {
+    "name": "walk1_subject1",
+    "frames": 13066,
+    "steps": 13066,
+    "norm_return": 0.9276075960209226,
+    "norm_return_survived": 0.9276075960209226,
+    "failed": false,
+    "fail_step": -1,
+    "terms": {
+      "motion_global_root_pos": 0.006075737762100825,
+      "motion_global_root_ori": 0.009909322246117668,
+      "motion_body_pos": 0.019820956783858153,
+      "motion_body_ori": 0.018706467256381067,
+      "motion_body_lin_vel": 0.01935237789343824,
+      "motion_body_ang_vel": 0.019299599253235378,
+      "action_rate_l2": -0.0003859505214717438,
+      "joint_limit": -1.801665688152246e-05
+    },
+    "overflow_steps": 0,
+    "first_overflow_step": -1,
+    "max_height_error": 0.041414856910705566,
+    "max_tilt_error": 0.037605106830596924
+  },
+  "control_dt_s": 0.02,
+  "timing": {
+    "physics_dt_s": 0.005,
+    "decimation": 4,
+    "control_dt_s": 0.02,
+    "source": "community environment configuration"
+  },
+  "exported_scene_timestep_s": 0.002,
+  "termination_time_s": null,
+  "comparison": {
+    "status": "exact_outcome_match",
+    "historical_failed": false,
+    "historical_fail_step": -1,
+    "observed_failed": false,
+    "observed_fail_step": -1,
+    "fail_step_difference": null,
+    "fail_time_difference_s": null
+  },
+  "sample_count": 13066,
+  "root_qpos_address": 0,
+  "root_error_summary": {
+    "position_error_m": {
+      "mean": 0.29774780408248647,
+      "max": 1.365011389567955
+    },
+    "orientation_error_rad": {
+      "mean": 0.09177392787985467,
+      "max": 0.3353128254790166
+    },
+    "height_error_m": {
+      "mean": 0.010363185622873486,
+      "max": 0.04158097505569458
+    },
+    "benchmark_tilt_error": {
+      "mean": 0.004626930074740237,
+      "max": 0.03710189614667325
+    }
+  },
+  "coordinate_frame": "origin-free world, z-up; quaternion wxyz",
+  "recording_phase": "pre-action; sample k aligns with reference frame k; terminal state omitted",
+  "sample_errors_are_not_termination_checks": true,
+  "notes": [
+    "One environment, no noise/DR, start sampling; checkpoint env_kwargs preserved.",
+    "Original benchmark parallelism is unknown; mismatches are retained.",
+    "Do not infer failure from low root height alone or from geodesic orientation error."
+  ],
+  "checkpoint_metadata": {
+    "iteration": 86000,
+    "iteration_unit": "update",
+    "env_steps": 215040,
+    "num_updates": 85500,
+    "train_seconds": 37677.17285013199
+  }
+}

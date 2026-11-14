@@ -1,0 +1,19 @@
+{
+  "motion": "walk1_subject1",
+  "viewer": "viser",
+  "status": "started_no_completed_episode",
+  "historical": {
+    "frames": 13066,
+    "failed": false,
+    "fail_step": -1,
+    "norm_return": 0.9276395476869833,
+    "overflow_steps": 0
+  },
+  "comparison": {
+    "status": "not_measured",
+    "historical_failed": false,
+    "historical_fail_step": -1
+  },
+  "pause_step": 0,
+  "num_envs": 1
+}

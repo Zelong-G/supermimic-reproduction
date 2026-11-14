@@ -1,0 +1,61 @@
+{
+  "status": "prepared_not_gpu_executed",
+  "simulation_started": false,
+  "checkpoint": "weights/realmimic_g1_86k.pt",
+  "checkpoint_loaded": false,
+  "historical_command_parallelism": "not recorded; one-env replay can differ",
+  "cases": [
+    {
+      "motion": "walk1_subject1",
+      "role": "normal_success",
+      "reason": "Highest full score among Experiment 003 motions passing both protocols.",
+      "historical": {
+        "frames": 13066,
+        "failed": false,
+        "fail_step": -1,
+        "norm_return": 0.9276395476869833,
+        "overflow_steps": 0
+      },
+      "historical_fail_time_s": null,
+      "segments": 26,
+      "segment_failures": 0
+    },
+    {
+      "motion": "dance2_subject4",
+      "role": "full_failure_segments_pass",
+      "reason": "User-selected full failure with all independent segments passing.",
+      "historical": {
+        "frames": 11284,
+        "failed": true,
+        "fail_step": 3046,
+        "norm_return": 0.21241360799254613,
+        "overflow_steps": 0
+      },
+      "historical_fail_time_s": 60.92,
+      "segments": 23,
+      "segment_failures": 0
+    },
+    {
+      "motion": "fallAndGetUp1_subject1",
+      "role": "early_full_failure",
+      "reason": "User-selected early full failure, not the different fallAndGetUp3 replay candidate.",
+      "historical": {
+        "frames": 8411,
+        "failed": true,
+        "fail_step": 399,
+        "norm_return": 0.036310203406207275,
+        "overflow_steps": 0
+      },
+      "historical_fail_time_s": 7.98,
+      "segments": 17,
+      "segment_failures": 8
+    }
+  ],
+  "source_sha256": {
+    "my_work/outputs/exp_001_lafan1_full/lafan1_full.json": "6f05baf01bf51dee6921c2dac3714bbfadf6f21dc800e5434bea89936583f508",
+    "my_work/outputs/exp_002_lafan1_seg10/lafan1_seg10.json": "b4330fa407aa12c2d6fd0bcfe1c844930d185b93e6e78ace72abaffec2d7ede2",
+    "my_work/outputs/exp_003_failure_analysis/replay_candidates.json": "10810bc176a8472eb4ee690a9842ebc424f8f9ba54e59b5947b02643ae83b3cf"
+  },
+  "configuration_sha256": "e649425fd1df58922d6cfcca7fc4f2151a66d225e5caa9b619e782a0430cf854",
+  "failure_time_comparison": "pending actual GPU execution"
+}

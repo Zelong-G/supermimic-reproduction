@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-11-14T20:59:33.003994+00:00",
+  "command": [
+    "/storage/user/zheze/realmimic/.venv/bin/python",
+    "scripts/data/build_library.py",
+    "--npz-dir",
+    "data/npz/bones_seed",
+    "--manifest",
+    "data/npz/bones_seed/manifest_filtered.csv",
+    "--out",
+    "/storage/user/zheze/realmimic/my_work/outputs/exp_007_full_training/prepared_data/bones_paper.pt",
+    "--workers",
+    "8"
+  ],
+  "original_library_untouched": "data/library/bones_paper.pt",
+  "finished_at_utc": "2026-11-14T21:03:34.573648+00:00",
+  "wall_seconds": 241.56965369699174
+}

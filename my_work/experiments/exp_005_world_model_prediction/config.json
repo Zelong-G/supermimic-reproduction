@@ -1,0 +1,14 @@
+{
+  "checkpoint": "weights/realmimic_g1_86k.pt",
+  "npz_dir": "data/npz/lafan1",
+  "output_dir": "my_work/outputs/exp_005_world_model_prediction",
+  "max_steps": 512,
+  "horizons": [1, 4, 8, 16, 32],
+  "window_stride": 8,
+  "max_windows": 64,
+  "cases": [
+    {"motion": "walk1_subject1", "label": "Normal: walk", "group": "normal"},
+    {"motion": "dance2_subject4", "label": "Challenging: dance", "group": "challenging"},
+    {"motion": "fallAndGetUp1_subject1", "label": "Challenging: fall/get-up", "group": "challenging"}
+  ]
+}

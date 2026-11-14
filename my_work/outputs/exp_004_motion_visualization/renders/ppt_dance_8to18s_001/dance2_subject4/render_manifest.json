@@ -1,0 +1,23 @@
+{
+  "motion": "dance2_subject4",
+  "recording": "my_work/outputs/exp_004_motion_visualization/recordings/capture_001/dance2_subject4",
+  "start_sample": 400,
+  "stop_sample_exclusive": 900,
+  "start_time_s": 8.0,
+  "stop_time_exclusive_s": 18.0,
+  "width": 1280,
+  "height": 720,
+  "fps": 50,
+  "mp4_written": true,
+  "presentation": true,
+  "comparison": {
+    "status": "mismatch",
+    "historical_failed": true,
+    "historical_fail_step": 3046,
+    "observed_failed": true,
+    "observed_fail_step": 2984,
+    "fail_step_difference": -62,
+    "fail_time_difference_s": -1.24
+  },
+  "note": "Recorded MuJoCo states; no policy inference or dynamics rerun during rendering."
+}

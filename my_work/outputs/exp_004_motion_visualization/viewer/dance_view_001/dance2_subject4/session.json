@@ -1,0 +1,13 @@
+{
+  "status": "completed_episode",
+  "latest_episode_file": "episode_000.json",
+  "comparison": {
+    "status": "mismatch",
+    "historical_failed": true,
+    "historical_fail_step": 3046,
+    "observed_failed": true,
+    "observed_fail_step": 2984,
+    "fail_step_difference": -62,
+    "fail_time_difference_s": -1.24
+  }
+}

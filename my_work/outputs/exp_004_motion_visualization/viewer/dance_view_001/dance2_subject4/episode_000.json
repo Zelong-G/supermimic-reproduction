@@ -1,0 +1,20 @@
+{
+  "motion": "dance2_subject4",
+  "episode": 0,
+  "steps": 2984,
+  "failed": true,
+  "fail_step": 2984,
+  "termination_time_s": 59.68,
+  "overflow_steps": 1,
+  "comparison": {
+    "status": "mismatch",
+    "historical_failed": true,
+    "historical_fail_step": 3046,
+    "observed_failed": true,
+    "observed_fail_step": 2984,
+    "fail_step_difference": -62,
+    "fail_time_difference_s": -1.24
+  },
+  "terminal_pose_available": false,
+  "note": "Viewer auto-resets at done; visible pose after termination is reset state, not failure pose."
+}

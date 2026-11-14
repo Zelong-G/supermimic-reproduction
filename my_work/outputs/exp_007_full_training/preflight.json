@@ -1,0 +1,80 @@
+{
+  "checked_at_utc": "2026-11-14T21:08:16.538270+00:00",
+  "seed": 0,
+  "training_started": false,
+  "pretrained_checkpoint_used": false,
+  "library": {
+    "path": "/storage/user/zheze/realmimic/my_work/outputs/exp_007_full_training/prepared_data/bones_paper.pt",
+    "exists": true,
+    "ready": true,
+    "scope": "ZIP readability, all names/lengths/contiguous ranges, fp16 71-D tensor shape, 64 sampled boundary rows; not a full finite/CRC scan.",
+    "bytes": 6729676665,
+    "mtime_ns": 1794690212120878850,
+    "clips": 129491,
+    "frames": 47345789,
+    "reference_shape": [
+      47345789,
+      71
+    ],
+    "dtype": "torch.float16",
+    "sampled_rows": 64
+  },
+  "runtime": {
+    "torch": "2.14.1+cu130",
+    "torch_cuda": "13.0",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 4090",
+        "total_mib": 24564,
+        "used_mib": 1,
+        "free_mib": 24080,
+        "driver": "580.178.04"
+      }
+    ],
+    "versions": {
+      "mujoco": "3.16.0",
+      "mujoco-warp": "3.16.0",
+      "warp-lang": "1.18.0",
+      "tensorboard": "2.21.0"
+    },
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "git_commit": "f851af038d7e1bca1131a6107a21ea21c904f197",
+    "working_tree_dirty": true,
+    "experiment_code_sha256": {
+      "training.py": "8380c71ea57f9353fa8c6a2e7b1a7c2d113b466fda8c52304f19265a0c8cb2fd",
+      "profiles.json": "c91ecbfb8189381dab014fe629449a35b9c088efc46bae9dea5f49f36d3675ff",
+      "monitor.py": "a3ede96b6cbd54e5b82d966c83317e51577bec4e431d721b55de45042d20dab5",
+      "analyze_logs.py": "cefe1d839a608cc0e5b837683a8bebdded6344d1696618fc5144d268934f8126"
+    },
+    "training_sources_sha256": {
+      "src/supermimic/training/loop.py": "4c179539301df8d0be3145536818bffcaa6b6a37872b452ebc4131860c9e67e2",
+      "src/supermimic/presets.py": "ff33418665d90ccd5beef9a89e4639983f3f2cb2bf7d5c347077e7ee05bee65c",
+      "src/supermimic/scripts/train.py": "3638816584905e69082a5bd99f1d9b210fd09ef2b8d6f94bdbe65c4980a977c0"
+    }
+  },
+  "disk_free_bytes": 10680308596736,
+  "common_errors": [],
+  "smoke_data_ready": true,
+  "full_data_ready": true,
+  "full_command": [
+    "/storage/user/zheze/realmimic/.venv/bin/sm-train",
+    "release",
+    "--run-name",
+    "full_seed0",
+    "--log-root",
+    "my_work/outputs/exp_007_full_training",
+    "--seed",
+    "0",
+    "--device",
+    "cuda:0",
+    "--data.library",
+    "my_work/outputs/exp_007_full_training/prepared_data/bones_paper.pt"
+  ],
+  "resource_notes": {
+    "full_gpu_reference": "One RTX 4090 24 GiB, community reports ~10.5 hours; actual time/memory not measured here.",
+    "recommended_free_disk_gib": 30,
+    "full_checkpoints_estimate": "22 files (21 numbered plus latest), roughly 5-8 GiB including optimizer/sampler states; estimate only.",
+    "rebuild_library_additional_gib": 6.3
+  }
+}

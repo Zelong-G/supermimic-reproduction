@@ -1,0 +1,33 @@
+{
+  "inputs": [
+    {
+      "path": "my_work/outputs/exp_001_lafan1_full/lafan1_full.json",
+      "sha256": "6f05baf01bf51dee6921c2dac3714bbfadf6f21dc800e5434bea89936583f508"
+    },
+    {
+      "path": "my_work/outputs/exp_002_lafan1_seg10/lafan1_seg10.json",
+      "sha256": "b4330fa407aa12c2d6fd0bcfe1c844930d185b93e6e78ace72abaffec2d7ede2"
+    }
+  ],
+  "checkpoint": {
+    "iteration": 86000,
+    "iteration_unit": "update",
+    "env_steps": 215040,
+    "num_updates": 85500,
+    "train_seconds": 37677.17285013199,
+    "policy": "ours",
+    "run_name": "release",
+    "checkpoint_path": "weights/realmimic_g1_86k.pt",
+    "robot": "g1",
+    "freeze_clip_end": true,
+    "weights": "policy",
+    "clip_list": null
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
+  },
+  "analysis_script_sha256": "b3eedd439fb9ef2b5688b702cdaf30aa5dc8d5224de1c848d629459fd042f480",
+  "segment_contract": "tools/segment_clips.py defaults: fps=50, seconds=10, min_frames=250",
+  "historical_command_line": "Not stored in source JSON; cannot verify historical num_envs/device flags."
+}

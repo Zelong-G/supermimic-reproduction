@@ -1,0 +1,20 @@
+{
+  "motion": "fallAndGetUp1_subject1",
+  "episode": 1,
+  "steps": 399,
+  "failed": true,
+  "fail_step": 399,
+  "termination_time_s": 7.98,
+  "overflow_steps": 0,
+  "comparison": {
+    "status": "exact_outcome_match",
+    "historical_failed": true,
+    "historical_fail_step": 399,
+    "observed_failed": true,
+    "observed_fail_step": 399,
+    "fail_step_difference": 0,
+    "fail_time_difference_s": 0.0
+  },
+  "terminal_pose_available": false,
+  "note": "Viewer auto-resets at done; visible pose after termination is reset state, not failure pose."
+}

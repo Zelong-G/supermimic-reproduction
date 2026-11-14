@@ -1,5 +1,10 @@
-# Downloaded datasets and third-party runtimes (fetched by scripts, never committed)
+# Modified for the local SuperMimic reproduction: keep downloaded assets,
+# experiment outputs and local credentials out of research commits.
+
+# Downloaded datasets, model releases and third-party runtimes
+# (fetched by scripts, never committed)
 /data/
+/weights/
 /third_party/
 
 # Training, evaluation and export outputs
@@ -9,19 +14,61 @@
 /exports/
 *.ckpt
 *.pt
+# Additional pretrained model formats (none are tracked in this project).
+*.pth
 *.onnx
 *.engine
+*.safetensors
+*.torchscript
+
+# Put new benchmark / tracking / robustness raw outputs under runs/ or outputs/.
+# Keep curated reports and figures under docs/; do not globally ignore media,
+# JSON, CSV, NPZ, YAML, TOML or BIN files (examples and site assets need them).
+/wandb/
+/videos/
+/recordings/
+/tmp/
+*.log
+events.out.tfevents.*
 
 # Python
 __pycache__/
 *.py[cod]
 .venv/
+.venv-*/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
+.cache/
+.hypothesis/
+.ipynb_checkpoints/
 *.egg-info/
 /build/
 /dist/
+.coverage
+.coverage.*
+/htmlcov/
+
+# Local credentials only; sanitized templates remain available for commits.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.envrc.local
+.netrc
+.pypirc
+/.aws/
+/.ssh/
+/.secrets/
+/secrets/
+/credentials/
+credentials.json
+credentials.local.*
+secrets.local.*
+id_rsa
+id_ed25519
+*.private.key
 
 # C++ / CMake
 cmake-build-*/
@@ -31,6 +78,9 @@ compile_commands.json
 .vscode/
 .idea/
 .DS_Store
+*.swp
+*.swo
+*~
 
 # Website: libraries and released model files are fetched at publish time
 # (tools/fetch_site_vendor.sh, tools/fetch_site_weights.sh), never committed

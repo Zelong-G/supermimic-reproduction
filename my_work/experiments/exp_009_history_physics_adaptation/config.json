@@ -1,0 +1,17 @@
+{
+  "pretrained": "weights/realmimic_g1_86k.pt",
+  "library": "my_work/outputs/exp_007_full_training/prepared_data/bones_paper.pt",
+  "seed": 0,
+  "iterations": 5000,
+  "checkpoint_interval": 250,
+  "alpha": 0.1,
+  "lambda_mu": 0.01,
+  "lambda_action": 0.003884747507957704,
+  "loss_weight_source": "validation/calibration.json; measured once before full training, never retuned on LAFAN1",
+  "early_stopping_patience": null,
+  "early_stopping_min_iterations": 500,
+  "early_stopping_min_delta": 0.001,
+  "eval_frictions": [1.0, 0.7, 0.5, 0.3],
+  "eval_data": "data/npz/lafan1",
+  "eval_num_envs": 64
+}

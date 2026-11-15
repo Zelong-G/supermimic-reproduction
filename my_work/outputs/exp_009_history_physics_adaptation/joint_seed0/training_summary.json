@@ -1,0 +1,37 @@
+{
+  "iterations": 5000,
+  "training_loop_seconds_last_session": 1402.5148557639914,
+  "sum_iteration_seconds": 1350.7733722989506,
+  "first_200_mean": {
+    "imag_objective": 9.533008828163148,
+    "friction_mse": 0.06624704681336879,
+    "friction_mae": 0.22170885041356087,
+    "residual_abs_mean": 0.0039481702303965,
+    "seconds_per_iteration": 0.45764592640538465
+  },
+  "last_200_mean": {
+    "imag_objective": 9.534936695098876,
+    "friction_mse": 0.0528340051881969,
+    "friction_mae": 0.19191646076738833,
+    "residual_abs_mean": 0.006451565544120967,
+    "seconds_per_iteration": 0.26549479046705526
+  },
+  "max_allocated_gib": 14.479390144348145,
+  "max_reserved_gib": 15.177734375,
+  "frozen_hashes_unchanged": true,
+  "original_checkpoint_file_unchanged": true,
+  "new_module_weight_changes": {
+    "encoder": {
+      "weight_change_l2": 14.560872693011406,
+      "parameters": 271361
+    },
+    "adapter": {
+      "weight_change_l2": 4.729598350648293,
+      "parameters": 36509
+    }
+  },
+  "critic_weight_change_l2": 44.05074533573213,
+  "pretrained_sha256": "b38d474df238198e8cc28e0e6286ae69b88d91bdd10d2abf8f73df35afea7ae2",
+  "final_checkpoint_sha256": "e8c81b5cc06ea7507c4800ab566e8240813cf6ede632a51427946d63c06d3cb7",
+  "initial_checkpoint_sha256": "da87d959c23a2ae6852330d07349d59e7ef9e8907a28d1f70b8addac5b4a092f"
+}

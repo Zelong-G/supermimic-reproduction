@@ -1,0 +1,11 @@
+{
+  "pid": 2334314,
+  "started_utc": "2026-11-15T18:44:06.958015+00:00",
+  "target_groups": 8,
+  "episodes_per_group": 40,
+  "state": "complete",
+  "updated_utc": "2026-11-15T19:15:19.675578+00:00",
+  "completed_groups": 8,
+  "current_group": "step_80862_random_seed2",
+  "finished_utc": "2026-11-15T19:15:19.675557+00:00"
+}

@@ -1,6 +1,6 @@
 # Training Report
 
-Run status: **running**. Normal completion verified: **False**.
+Run status: **completed**. Normal completion verified: **True**.
 
 ## Training stages
 
@@ -9,22 +9,22 @@ World Model-only updates through iteration 500; subsequent iterations update Wor
 ## Progress
 
 - Target iterations: 86000.
-- Verified final completed iterations: None.
-- Verified final environment steps: None.
-- Last logged iteration: 7750 (a lower bound after interruption).
-- Total process wall time (seconds, including startup): 3848.366491452005.
-- Latest checkpoint: not available; checkpoint iteration: None.
+- Verified final completed iterations: 86000.
+- Verified final environment steps: 215040.
+- Last logged iteration: 86000 (a lower bound after interruption).
+- Total process wall time (seconds, including startup): 39493.672375139024.
+- Latest checkpoint: ckpt_latest.pt; checkpoint iteration: 86000.
 
 ## Metric changes
 
 | Metric | First finite value | Last finite value | Nonfinite samples |
 |---|---:|---:|---:|
-| wm/loss | 5.398882865905762 | 0.5713175535202026 | 0 |
-| wm/state_loss | 5.384881019592285 | 0.5712685585021973 | 0 |
-| wm/term_bce | 0.014001752249896526 | 4.8975103709381074e-05 | 0 |
-| wm/online_nse_8step | 0.05567729100584984 | 0.01186936441808939 | 0 |
-| policy/imag_objective | 1.1428091526031494 | 8.953673362731934 | 0 |
-| policy/critic_loss | 0.05397030711174011 | 0.007783159613609314 | 0 |
+| wm/loss | 5.398882865905762 | 0.3128361701965332 | 0 |
+| wm/state_loss | 5.384881019592285 | 0.3128216564655304 | 0 |
+| wm/term_bce | 0.014001752249896526 | 1.4534565707435831e-05 | 0 |
+| wm/online_nse_8step | 0.05567729100584984 | 0.0042941635474562645 | 0 |
+| policy/imag_objective | 1.1428091526031494 | 9.554797172546387 | 0 |
+| policy/critic_loss | 0.05397030711174011 | 0.00313295004889369 | 0 |
 
 Loss, imagination objective and online prediction metric are different quantities. The online prediction metric is measured on training replay, not a held-out Benchmark.
 

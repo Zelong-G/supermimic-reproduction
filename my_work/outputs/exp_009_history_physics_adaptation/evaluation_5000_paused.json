@@ -1,0 +1,32 @@
+{
+  "status": "paused_for_user_six_hour_training",
+  "completed_episodes": 240,
+  "completed_groups": [
+    [
+      "adapted",
+      0.7
+    ],
+    [
+      "adapted",
+      1.0
+    ],
+    [
+      "base",
+      0.7
+    ],
+    [
+      "base",
+      1.0
+    ],
+    [
+      "residual_disabled",
+      0.7
+    ],
+    [
+      "residual_disabled",
+      1.0
+    ]
+  ],
+  "partial_results_dir": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/lafan1_joint5000",
+  "no_evaluation_process_running": true
+}

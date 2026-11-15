@@ -1,20 +1,34 @@
 {
-  "status": "running",
+  "status": "completed",
   "profile": "full",
-  "training_completed_normally": false,
-  "reached_target_iterations": false,
+  "training_completed_normally": true,
+  "reached_target_iterations": true,
   "training_started": true,
   "started_at_utc": "2026-11-14T21:08:16.574671+00:00",
-  "finished_at_utc": null,
-  "total_process_wall_seconds": 3848.366491452005,
-  "training_elapsed_seconds": null,
+  "finished_at_utc": "2026-11-15T08:06:30.247025+00:00",
+  "total_process_wall_seconds": 39493.672375139024,
+  "training_elapsed_seconds": 39438.75838756561,
   "target_iterations": 86000,
-  "actual_iterations": null,
-  "actual_environment_steps": null,
-  "last_logged_iteration": 7750,
-  "last_logged_environment_steps": 19415.0,
-  "last_logged_policy_updates": 7250.0,
-  "checkpoint": null,
+  "actual_iterations": 86000,
+  "actual_environment_steps": 215040,
+  "last_logged_iteration": 86000,
+  "last_logged_environment_steps": 215040.0,
+  "last_logged_policy_updates": 85500.0,
+  "checkpoint": {
+    "path": "ckpt_latest.pt",
+    "iteration": 86000,
+    "env_steps": 215040,
+    "policy_updates": 85500,
+    "train_seconds": 39438.75838756561,
+    "optimizer_steps": {
+      "wm_opt": 860000,
+      "policy_opt": 85500,
+      "critic_opt": 1710000
+    },
+    "nonfinite_model_tensors": [],
+    "resume": null,
+    "init_from": null
+  },
   "runtime": {
     "torch": "2.14.1+cu130",
     "torch_cuda": "13.0",
@@ -335,641 +349,641 @@
   "gpu_memory_scope": "PyTorch counters exclude Warp; process peak is sampled every 30 s and may miss brief spikes.",
   "metric_summary": {
     "wm/state_loss": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 5.384881019592285,
-      "last_finite_value": 0.5712685585021973,
-      "last_step": 7750
+      "last_finite_value": 0.3128216564655304,
+      "last_step": 86000
     },
     "wm/term_bce": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.014001752249896526,
-      "last_finite_value": 4.8975103709381074e-05,
-      "last_step": 7750
+      "last_finite_value": 1.4534565707435831e-05,
+      "last_step": 86000
     },
     "wm/nse_1step": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.05256625637412071,
-      "last_finite_value": 0.005272233858704567,
-      "last_step": 7750
+      "last_finite_value": 0.0032350528053939342,
+      "last_step": 86000
     },
     "wm/nse_kstep": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.11506235599517822,
-      "last_finite_value": 0.011071612127125263,
-      "last_step": 7750
+      "last_finite_value": 0.005672838538885117,
+      "last_step": 86000
     },
     "wm/term_acc": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9948059320449829,
-      "last_finite_value": 0.9999935030937195,
-      "last_step": 7750
+      "last_finite_value": 0.9999988079071045,
+      "last_step": 86000
     },
     "wm/loss": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 5.398882865905762,
-      "last_finite_value": 0.5713175535202026,
-      "last_step": 7750
+      "last_finite_value": 0.3128361701965332,
+      "last_step": 86000
     },
     "wm/grad_norm": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 33.25419235229492,
-      "last_finite_value": 2.9667868614196777,
-      "last_step": 7750
+      "last_finite_value": 2.161219596862793,
+      "last_step": 86000
     },
     "lr": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.00019999976211693138,
-      "last_finite_value": 0.0001940251822816208,
-      "last_step": 7750
+      "last_finite_value": 6.000000212225132e-06,
+      "last_step": 86000
     },
     "train/episode_norm_return": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.45661333203315735,
-      "last_finite_value": 0.8427796363830566,
-      "last_step": 7750
+      "last_finite_value": 0.3672899901866913,
+      "last_step": 86000
     },
     "train/episode_len": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 33.41279983520508,
-      "last_finite_value": 232.6217803955078,
-      "last_step": 7750
+      "last_finite_value": 107.11341857910156,
+      "last_step": 86000
     },
     "sim/overflow_nefc": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sim/overflow_broadphase": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sim/overflow_narrowphase": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sim/overflow_ccd": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sim/overflow_iterations": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.03271484375,
-      "last_finite_value": 0.056640625,
-      "last_step": 7750
+      "last_finite_value": 0.0517578125,
+      "last_step": 86000
     },
     "sim/overflow_ls_iterations": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0830078125,
-      "last_finite_value": 0.254638671875,
-      "last_step": 7750
+      "last_finite_value": 0.256103515625,
+      "last_step": 86000
     },
     "wm/online_nse_1step": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.035810213536024094,
-      "last_finite_value": 0.005511218681931496,
-      "last_step": 7750
+      "last_finite_value": 0.003307646606117487,
+      "last_step": 86000
     },
     "wm/online_nse_8step": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.05567729100584984,
-      "last_finite_value": 0.01186936441808939,
-      "last_step": 7750
+      "last_finite_value": 0.0042941635474562645,
+      "last_step": 86000
     },
     "time/sim_s_per_iter": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.10082339495420456,
-      "last_finite_value": 0.10354366153478622,
-      "last_step": 7750
+      "last_finite_value": 0.10297973453998566,
+      "last_step": 86000
     },
     "time/wm_s_per_iter": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 2.3393242359161377,
-      "last_finite_value": 0.18529632687568665,
-      "last_step": 7750
+      "last_finite_value": 0.18496888875961304,
+      "last_step": 86000
     },
     "time/policy_s_per_iter": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
-      "last_finite_value": 0.16557584702968597,
-      "last_step": 7750
+      "last_finite_value": 0.16513842344284058,
+      "last_step": 86000
     },
     "time/hours": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.034505754709243774,
-      "last_finite_value": 1.0534390211105347,
-      "last_step": 7750
+      "last_finite_value": 10.95519733428955,
+      "last_step": 86000
     },
     "gpu/torch_peak_allocated_mib": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 10576.568359375,
       "last_finite_value": 16804.521484375,
-      "last_step": 7750
+      "last_step": 86000
     },
     "gpu/torch_peak_reserved_mib": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 10700.0,
       "last_finite_value": 17574.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "time/env_steps": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 165.0,
-      "last_finite_value": 19415.0,
-      "last_step": 7750
+      "last_finite_value": 215040.0,
+      "last_step": 86000
     },
     "time/policy_updates": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
-      "last_finite_value": 7250.0,
-      "last_step": 7750
+      "last_finite_value": 85500.0,
+      "last_step": 86000
     },
     "sampler/entropy": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9998682737350464,
-      "last_finite_value": 0.9623836874961853,
-      "last_step": 7750
+      "last_finite_value": 0.6453985571861267,
+      "last_step": 86000
     },
     "sampler/bin_return_mean": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.03974175825715065,
-      "last_finite_value": 6.198333263397217,
-      "last_step": 7750
+      "last_finite_value": 8.919100761413574,
+      "last_step": 86000
     },
     "sampler/untouched_frac": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9727562665939331,
-      "last_finite_value": 0.1052040159702301,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/unphysical_episodes": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
-      "last_finite_value": 62.0,
-      "last_step": 7750
+      "last_finite_value": 375.0,
+      "last_step": 86000
     },
     "sampler/side_rolls/bin_return": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.15113504230976105,
-      "last_finite_value": 3.768237590789795,
-      "last_step": 7750
+      "last_finite_value": 7.268345832824707,
+      "last_step": 86000
     },
     "sampler/side_rolls/untouched_frac": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9491525292396545,
-      "last_finite_value": 0.18644067645072937,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/side_rolls/uniform_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.00011672628170344979,
       "last_finite_value": 0.00011672628170344979,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/side_rolls/reset_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.00014158290287014097,
-      "last_finite_value": 0.000469263264676556,
-      "last_step": 7750
+      "last_finite_value": 0.000207727454835549,
+      "last_step": 86000
     },
     "sampler/flips/bin_return": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.019873246550559998,
-      "last_finite_value": 3.8284971714019775,
-      "last_step": 7750
+      "last_finite_value": 7.07358455657959,
+      "last_step": 86000
     },
     "sampler/flips/untouched_frac": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9972826242446899,
-      "last_finite_value": 0.20652174949645996,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/flips/uniform_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0003640277136582881,
       "last_finite_value": 0.0003640277136582881,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/flips/reset_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 9.43885970627889e-05,
-      "last_finite_value": 0.000469263264676556,
-      "last_step": 7750
+      "last_finite_value": 0.000415454909671098,
+      "last_step": 86000
     },
     "sampler/fire_in_the_hole_turns/bin_return": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.03713119402527809,
-      "last_finite_value": 3.9163904190063477,
-      "last_step": 7750
+      "last_finite_value": 6.983942031860352,
+      "last_step": 86000
     },
     "sampler/fire_in_the_hole_turns/untouched_frac": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9907407760620117,
-      "last_finite_value": 0.20370370149612427,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/fire_in_the_hole_turns/uniform_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.00010683422442525625,
       "last_finite_value": 0.00010683422442525625,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/fire_in_the_hole_turns/reset_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 9.43885970627889e-05,
-      "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_finite_value": 0.000207727454835549,
+      "last_step": 86000
     },
     "sampler/crossed_legs/bin_return": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
-      "last_finite_value": 3.470830202102661,
-      "last_step": 7750
+      "last_finite_value": 7.306910037994385,
+      "last_step": 86000
     },
     "sampler/crossed_legs/untouched_frac": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 1.0,
-      "last_finite_value": 0.1111111119389534,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/crossed_legs/uniform_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.00014244562771636993,
       "last_finite_value": 0.00014244562771636993,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/crossed_legs/reset_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/lying_resting_standing_up/bin_return": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.022871699184179306,
-      "last_finite_value": 3.7556238174438477,
-      "last_step": 7750
+      "last_finite_value": 7.727973937988281,
+      "last_step": 86000
     },
     "sampler/lying_resting_standing_up/untouched_frac": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9796472191810608,
-      "last_finite_value": 0.12550881505012512,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/lying_resting_standing_up/uniform_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0014580893330276012,
       "last_finite_value": 0.0014580893330276012,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/lying_resting_standing_up/reset_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0017461890820413828,
-      "last_finite_value": 0.001877053058706224,
-      "last_step": 7750
+      "last_finite_value": 0.0006231823936104774,
+      "last_step": 86000
     },
     "sampler/broad_jumps/bin_return": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.03316957503557205,
-      "last_finite_value": 4.952666759490967,
-      "last_step": 7750
+      "last_finite_value": 7.769776821136475,
+      "last_step": 86000
     },
     "sampler/broad_jumps/untouched_frac": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9452054500579834,
-      "last_finite_value": 0.1438356190919876,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/broad_jumps/uniform_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.00014442404790315777,
       "last_finite_value": 0.00014442404790315777,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/broad_jumps/reset_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.00028316580574028194,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/dance_routine/bin_return": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0027777948416769505,
-      "last_finite_value": 2.0337700843811035,
-      "last_step": 7750
+      "last_finite_value": 6.393001079559326,
+      "last_step": 86000
     },
     "sampler/dance_routine/untouched_frac": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9787233471870422,
-      "last_finite_value": 0.021276595070958138,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/dance_routine/uniform_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 9.298534132540226e-05,
       "last_finite_value": 9.298534132540226e-05,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/dance_routine/reset_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 4.719429853139445e-05,
-      "last_finite_value": 0.000469263264676556,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/all_other/bin_return": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.03977098688483238,
-      "last_finite_value": 6.204254627227783,
-      "last_step": 7750
+      "last_finite_value": 8.922548294067383,
+      "last_step": 86000
     },
     "sampler/all_other/untouched_frac": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9727376103401184,
-      "last_finite_value": 0.10511869192123413,
-      "last_step": 7750
+      "last_finite_value": 0.0,
+      "last_step": 86000
     },
     "sampler/all_other/uniform_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9975744485855103,
       "last_finite_value": 0.9975744485855103,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/all_other/reset_share": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.997593104839325,
-      "last_finite_value": 0.9967151284217834,
-      "last_step": 7750
+      "last_finite_value": 0.9985458850860596,
+      "last_step": 86000
     },
     "sampler/unphysical_nonfinite": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/unphysical_joint_vel": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
-      "last_finite_value": 62.0,
-      "last_step": 7750
+      "last_finite_value": 375.0,
+      "last_step": 86000
     },
     "sampler/unphysical_root_vel": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "sampler/hard_groups_reset_x_uniform": {
-      "samples": 155,
+      "samples": 1720,
       "nonfinite_samples": 0,
       "first_finite_value": 0.9923219680786133,
-      "last_finite_value": 1.3542768955230713,
-      "last_step": 7750
+      "last_finite_value": 0.5994939804077148,
+      "last_step": 86000
     },
     "policy/imag_objective": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 1.1428091526031494,
-      "last_finite_value": 8.953673362731934,
-      "last_step": 7750
+      "last_finite_value": 9.554797172546387,
+      "last_step": 86000
     },
     "policy/imag_return_undisc": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.8574501276016235,
-      "last_finite_value": 2.8255107402801514,
-      "last_step": 7750
+      "last_finite_value": 3.024261951446533,
+      "last_step": 86000
     },
     "policy/imag_reward_mean": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.029748085886240005,
-      "last_finite_value": 0.08831577003002167,
-      "last_step": 7750
+      "last_finite_value": 0.09453136473894119,
+      "last_step": 86000
     },
     "policy/imag_survival_H": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.3360234498977661,
-      "last_finite_value": 0.9991422891616821,
-      "last_step": 7750
+      "last_finite_value": 0.9994730353355408,
+      "last_step": 86000
     },
     "policy/imag_dhat_mean": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.3459562063217163,
-      "last_finite_value": 0.00016127171693369746,
-      "last_step": 7750
+      "last_finite_value": 2.794818465190474e-05,
+      "last_step": 86000
     },
     "policy/action_abs_mean": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.24860218167304993,
-      "last_finite_value": 0.9970072507858276,
-      "last_step": 7750
+      "last_finite_value": 0.9822050929069519,
+      "last_step": 86000
     },
     "policy/imag_r/motion_global_root_pos": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.003143738489598036,
-      "last_finite_value": 0.006390116643160582,
-      "last_step": 7750
+      "last_finite_value": 0.008463877253234386,
+      "last_step": 86000
     },
     "policy/imag_r/motion_global_root_ori": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0016916231252253056,
-      "last_finite_value": 0.009627658873796463,
-      "last_step": 7750
+      "last_finite_value": 0.00983367394655943,
+      "last_step": 86000
     },
     "policy/imag_r/motion_body_pos": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.008077675476670265,
-      "last_finite_value": 0.01945331133902073,
-      "last_step": 7750
+      "last_finite_value": 0.019777527078986168,
+      "last_step": 86000
     },
     "policy/imag_r/motion_body_ori": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0009290315210819244,
-      "last_finite_value": 0.01666259579360485,
-      "last_step": 7750
+      "last_finite_value": 0.01867220550775528,
+      "last_step": 86000
     },
     "policy/imag_r/motion_body_lin_vel": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.007536026183515787,
-      "last_finite_value": 0.018764931708574295,
-      "last_step": 7750
+      "last_finite_value": 0.019357673823833466,
+      "last_step": 86000
     },
     "policy/imag_r/motion_body_ang_vel": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.009538528509438038,
-      "last_finite_value": 0.01836518943309784,
-      "last_step": 7750
+      "last_finite_value": 0.019145771861076355,
+      "last_step": 86000
     },
     "policy/imag_r/action_rate_l2": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": -6.248598947422579e-05,
-      "last_finite_value": -0.0008597346022725105,
-      "last_step": 7750
+      "last_finite_value": -0.0006750082247890532,
+      "last_step": 86000
     },
     "policy/imag_r/joint_limit": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": -0.0011060512624680996,
-      "last_finite_value": -8.830380829749629e-05,
-      "last_step": 7750
+      "last_finite_value": -4.4356576836435124e-05,
+      "last_step": 86000
     },
     "policy/imag_r/joint_torque": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "policy/imag_r/energy": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "policy/imag_r/ankle_acc": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "policy/imag_r/anti_shake": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "policy/imag_r/sustained_load": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "policy/imag_r/pelvis_tilt": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "policy/imag_r/waist_lean": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.0,
       "last_finite_value": 0.0,
-      "last_step": 7750
+      "last_step": 86000
     },
     "policy/policy_grad_norm": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 4.389062881469727,
-      "last_finite_value": 1.2944344282150269,
-      "last_step": 7750
+      "last_finite_value": 0.728635311126709,
+      "last_step": 86000
     },
     "policy/critic_loss": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.05397030711174011,
-      "last_finite_value": 0.007783159613609314,
-      "last_step": 7750
+      "last_finite_value": 0.00313295004889369,
+      "last_step": 86000
     },
     "policy/critic_value_mean": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.7657000422477722,
-      "last_finite_value": 8.986013412475586,
-      "last_step": 7750
+      "last_finite_value": 9.584182739257812,
+      "last_step": 86000
     },
     "policy/critic_target_mean": {
-      "samples": 145,
+      "samples": 1710,
       "nonfinite_samples": 0,
       "first_finite_value": 0.7796648740768433,
-      "last_finite_value": 8.985230445861816,
-      "last_step": 7750
+      "last_finite_value": 9.583704948425293,
+      "last_step": 86000
     }
   },
   "anomalies": [

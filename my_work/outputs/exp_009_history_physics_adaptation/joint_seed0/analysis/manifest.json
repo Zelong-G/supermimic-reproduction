@@ -1,0 +1,16 @@
+{
+  "generated": [
+    "01_joint_training_loss",
+    "02_tracking_reward",
+    "03_friction_mae",
+    "07_residual_magnitude",
+    "04_predicted_friction"
+  ],
+  "missing_not_fabricated": [
+    "05_tracking_vs_friction",
+    "06_failure_vs_friction"
+  ],
+  "validation_status": null,
+  "fine_tuning_results_present": true,
+  "evaluation_present": false
+}

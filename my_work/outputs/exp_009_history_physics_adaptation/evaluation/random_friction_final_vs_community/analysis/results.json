@@ -1,0 +1,2350 @@
+{
+  "manifest": {
+    "schema": "exp009/random-friction-v1",
+    "clips": [
+      "data/npz/lafan1/dance1_subject1.npz",
+      "data/npz/lafan1/dance1_subject2.npz",
+      "data/npz/lafan1/dance1_subject3.npz",
+      "data/npz/lafan1/dance2_subject1.npz",
+      "data/npz/lafan1/dance2_subject2.npz",
+      "data/npz/lafan1/dance2_subject3.npz",
+      "data/npz/lafan1/dance2_subject4.npz",
+      "data/npz/lafan1/dance2_subject5.npz",
+      "data/npz/lafan1/fallAndGetUp1_subject1.npz",
+      "data/npz/lafan1/fallAndGetUp1_subject4.npz",
+      "data/npz/lafan1/fallAndGetUp1_subject5.npz",
+      "data/npz/lafan1/fallAndGetUp2_subject2.npz",
+      "data/npz/lafan1/fallAndGetUp2_subject3.npz",
+      "data/npz/lafan1/fallAndGetUp3_subject1.npz",
+      "data/npz/lafan1/fight1_subject2.npz",
+      "data/npz/lafan1/fight1_subject3.npz",
+      "data/npz/lafan1/fight1_subject5.npz",
+      "data/npz/lafan1/fightAndSports1_subject1.npz",
+      "data/npz/lafan1/fightAndSports1_subject4.npz",
+      "data/npz/lafan1/jumps1_subject1.npz",
+      "data/npz/lafan1/jumps1_subject2.npz",
+      "data/npz/lafan1/jumps1_subject5.npz",
+      "data/npz/lafan1/run1_subject2.npz",
+      "data/npz/lafan1/run1_subject5.npz",
+      "data/npz/lafan1/run2_subject1.npz",
+      "data/npz/lafan1/run2_subject4.npz",
+      "data/npz/lafan1/sprint1_subject2.npz",
+      "data/npz/lafan1/sprint1_subject4.npz",
+      "data/npz/lafan1/walk1_subject1.npz",
+      "data/npz/lafan1/walk1_subject2.npz",
+      "data/npz/lafan1/walk1_subject5.npz",
+      "data/npz/lafan1/walk2_subject1.npz",
+      "data/npz/lafan1/walk2_subject3.npz",
+      "data/npz/lafan1/walk2_subject4.npz",
+      "data/npz/lafan1/walk3_subject1.npz",
+      "data/npz/lafan1/walk3_subject2.npz",
+      "data/npz/lafan1/walk3_subject3.npz",
+      "data/npz/lafan1/walk3_subject4.npz",
+      "data/npz/lafan1/walk3_subject5.npz",
+      "data/npz/lafan1/walk4_subject1.npz"
+    ],
+    "clip_sha256": {
+      "data/npz/lafan1/dance1_subject1.npz": "56e955ff22f9ea0b80b210467115d37aa095dd5d6e8aca485d0a1f2acd29c065",
+      "data/npz/lafan1/dance1_subject2.npz": "6efa532b8a1f1e127b17b86a3c031611be90fc1b4bff51198f2cb303608fdfb0",
+      "data/npz/lafan1/dance1_subject3.npz": "e6d8c7304c97ae3c71f8b4ac3596decae12fc74e906742afee3f1724df34473a",
+      "data/npz/lafan1/dance2_subject1.npz": "3cebfd31124824f5ae5c072c8f141db1e4ed68b54bc9d2adb4d60bf7ceec879d",
+      "data/npz/lafan1/dance2_subject2.npz": "8500fafeeb6d5f07c13a2c05e28e43fb547a9787d33e28203c457da758aa3d11",
+      "data/npz/lafan1/dance2_subject3.npz": "6e810425f4e7d2f7fcbe7636672edabf15846a5b450ac2717dbfad003b83f8df",
+      "data/npz/lafan1/dance2_subject4.npz": "c1b0ffbbf92abd98856e8c309f66b5f2837a2c1eab0387c6666fa6ac4a4ef70a",
+      "data/npz/lafan1/dance2_subject5.npz": "90dd74c67204d8e106b0b5622ec685d806400c310f3c03828a2db6de462296d9",
+      "data/npz/lafan1/fallAndGetUp1_subject1.npz": "853e983ad3ccf18316c20a4fac52f639793acf1b9a3d634669f0e53437855ca4",
+      "data/npz/lafan1/fallAndGetUp1_subject4.npz": "f1fae7d9e63db8e6a92bf5a84127a5be28112d67eace6b97a6c7c65144a7bef6",
+      "data/npz/lafan1/fallAndGetUp1_subject5.npz": "51040c6ed64b574ac08a8c9e260bcb70456af9d23c39a61802790563fb5c13ed",
+      "data/npz/lafan1/fallAndGetUp2_subject2.npz": "c9f3bf1d89ef9a09fd80471f5fbe4f653a6a22fc144a1d4cbcad6c77b4d0ef37",
+      "data/npz/lafan1/fallAndGetUp2_subject3.npz": "19ae505b4b3dc55069ad80e3cb32008c1623bc64985a7be8c7a03312e73fd314",
+      "data/npz/lafan1/fallAndGetUp3_subject1.npz": "3096ab961fc84772de0e5ff1fdc3f7e02cbd0daa2c1942d5d897986677265332",
+      "data/npz/lafan1/fight1_subject2.npz": "02d949a6462dcaa8f69c755fe55da109edf37533b3337b0942d499185e503fa5",
+      "data/npz/lafan1/fight1_subject3.npz": "494a287d975742981a79b754623576c5619e4d54e2778695a77636b79f4e6cc9",
+      "data/npz/lafan1/fight1_subject5.npz": "a6e7f02748d6e0aefe57ea4bdd3e454ff0c0b8e2b67e0368ddff4fa3645c4275",
+      "data/npz/lafan1/fightAndSports1_subject1.npz": "4ae5e11a9025e7a4fc886e48491f620892e2a55d25b12ee892012a829e13cf89",
+      "data/npz/lafan1/fightAndSports1_subject4.npz": "c8c110efe75c87b0d03fe200a7a77b2c037c14f6217426c77ba8b917d15f8019",
+      "data/npz/lafan1/jumps1_subject1.npz": "0c21df779e79a8e96a5fb42f5a8a3ffe9b3cf775b883e6bf40016a67d8468878",
+      "data/npz/lafan1/jumps1_subject2.npz": "0db82d77713cb8e1b3fbe4e4ad6b9fef7c08b6617b3602f9371f799180c40759",
+      "data/npz/lafan1/jumps1_subject5.npz": "ff2df9a8ebaea17618e4b7de975a057c650de723ec8a1cce06443a1223a861fc",
+      "data/npz/lafan1/run1_subject2.npz": "8669bcdd90fd8e4fdb380a4a7f932e53cd6ad4d8c4521dc1db91172b1908eb4d",
+      "data/npz/lafan1/run1_subject5.npz": "830845965ea936200a6f81cb9e36bfdc84fac31fc6574e584039ec2a0e6b2a21",
+      "data/npz/lafan1/run2_subject1.npz": "6d87d769c2415f6a7c87325e44b4e3031932c4b1e9c83f5e73d808765ff5aac1",
+      "data/npz/lafan1/run2_subject4.npz": "d395820089990a2fd16473936534a95b2548db5a2b87564d705bbcb1724c9247",
+      "data/npz/lafan1/sprint1_subject2.npz": "5d9fc76fc8e3c58135aeb352eb3729c0b76d01a01720a568922181aa4fa5982e",
+      "data/npz/lafan1/sprint1_subject4.npz": "30a524a62c1eef530c1681928c7162b8e0e6bc4bafd4ce25df5bc4eaf3e53141",
+      "data/npz/lafan1/walk1_subject1.npz": "4598698aa035c52ba160986e05796cb525df557d1879266e933c40a65994c041",
+      "data/npz/lafan1/walk1_subject2.npz": "1dcddc57b66913a6a0cec4fa95916dcda8331d1b0ef4dd9cd4f00eb8a12fc24e",
+      "data/npz/lafan1/walk1_subject5.npz": "12f7742505d96101fbfad2dddcc7ae6649a20a28219759f100b1c09e4eb925b6",
+      "data/npz/lafan1/walk2_subject1.npz": "123854c969fbb34004c7f7cc580db693a2631c6c5db4265b339b22e0a353b4e3",
+      "data/npz/lafan1/walk2_subject3.npz": "c5cbb54da667369df7dbdd9e5f7dcf5b7acb61d33171c3516b5f74b76bd021b9",
+      "data/npz/lafan1/walk2_subject4.npz": "3d6908fc3a41a54caa341d30a1ee9eddd3e997f3fdd2144351c5f16360900d0f",
+      "data/npz/lafan1/walk3_subject1.npz": "e318c63d983e3ddfc13b320ad4bbc6c2569025b53b77a472ac2174720ca067f1",
+      "data/npz/lafan1/walk3_subject2.npz": "0bf303fa2998d564871e0896661794cd7e76e5dc6a647b38c52f4611e6485d98",
+      "data/npz/lafan1/walk3_subject3.npz": "bde393f74a76424527c4631868d49bdf297910845cd1acdb0486d1688b087536",
+      "data/npz/lafan1/walk3_subject4.npz": "d306830d85101ae608fbd21f431e44c04f88339f7745808cfb811d520fa8f260",
+      "data/npz/lafan1/walk3_subject5.npz": "0a32044b975ce697e38c215474f8fc59201febf64902193f982f9e34ecfcfc8b",
+      "data/npz/lafan1/walk4_subject1.npz": "f0b80eae80bf53980f84268e3b2723e039a8347f4acc36977bcf8a5f1b82d107"
+    },
+    "pretrained_sha256": "b38d474df238198e8cc28e0e6286ae69b88d91bdd10d2abf8f73df35afea7ae2",
+    "final_sha256": "9ab32bf005f045e4231ff4ddb87d8ca7330265afe2c2bc7bb14959bee34a8a87",
+    "sequence_seeds": [
+      0,
+      1,
+      2
+    ],
+    "environment_seed": 0,
+    "dt": 0.02,
+    "first_switch_s": 3.0,
+    "interval_s": 3.0,
+    "range": [
+      0.2,
+      1.5
+    ],
+    "max_seconds": null,
+    "variants": [
+      "base",
+      "step_80862"
+    ],
+    "physics": "Community solver10/line-search20/contact35/constraints250; no noise or other DR",
+    "contact_verification": "Every step: live buffer, active foot/plane contacts by worldid; last physics substep",
+    "prefix_gate": "Within-policy control/random state, history, goal, action, reward max absolute difference <=1e-4 before 3s",
+    "clock": "Switch at control step multiples of 150; actual float32 accumulated physics clock checked, ideal and actual times logged",
+    "source_sha256": {
+      "evaluate_random_friction.py": "354ff997e77cdcc5bfbe33e0e9ba2f251bf7b2f30d6cb296b871a89f680cd426",
+      "random_friction_protocol.py": "d9dc0220757d7745178912ffae103a7204f0822143de765881ec7f4526416e91",
+      "models.py": "23fce462b420226b2be5f1cab36754433e11b755efea66f0847ee276d67861d4"
+    },
+    "community_source_sha256": {
+      "src/supermimic/envs/tracking_env_cfg.py": "70f2d11a4b4b3bc46b100f3eb2de6035427070d92d1b3dc7c0d9a5cbe82c3c70",
+      "src/supermimic/eval/benchmark.py": "3ba9d92ed5fc11d533c6b6fad00e9e0bbadd3070fd1e54ce21130a58be3f1e96",
+      "src/supermimic/envs/mdp/commands.py": "16d52c46c1c7ecfaa1dcae87fe4bc370e71bdfe8d65b770bdd5eda710fae12d1"
+    }
+  },
+  "complete": true,
+  "summary": [
+    {
+      "variant": "base",
+      "episodes": 120,
+      "motions": 40,
+      "mean_return": 0.6145204214120035,
+      "return_ci_low": 0.52320714745152,
+      "return_ci_high": 0.7017523275654384,
+      "failures": 55,
+      "failure_rate": 0.4583333333333333,
+      "censored": 0,
+      "prefix_gate_passed": 39,
+      "capacity_affected": 0
+    },
+    {
+      "variant": "step_80862",
+      "episodes": 120,
+      "motions": 40,
+      "mean_return": 0.5981051691465576,
+      "return_ci_low": 0.5053405060200715,
+      "return_ci_high": 0.6850873345889792,
+      "failures": 56,
+      "failure_rate": 0.4666666666666667,
+      "censored": 0,
+      "prefix_gate_passed": 37,
+      "capacity_affected": 0
+    }
+  ],
+  "effects": {
+    "return_delta_all": {
+      "motions": 40,
+      "mean": -0.016415252265445886,
+      "ci95": [
+        -0.04184951695351418,
+        0.004919868286844515
+      ]
+    },
+    "return_delta_prefix_and_capacity_clean": {
+      "motions": 10,
+      "mean": -0.010037862482512774,
+      "ci95": [
+        -0.038262377469650104,
+        0.00874514813895093
+      ]
+    },
+    "control_adjusted_delta_all": {
+      "motions": 40,
+      "mean": -0.029446541370245417,
+      "ci95": [
+        -0.06729680560943754,
+        -0.0019775243131318486
+      ]
+    },
+    "control_adjusted_delta_prefix_and_capacity_clean": {
+      "motions": 10,
+      "mean": -0.01449893239024376,
+      "ci95": [
+        -0.040327359680470964,
+        0.0001787321579101891
+      ]
+    }
+  },
+  "audits": [
+    {
+      "passed": false,
+      "max_abs": 0.005146891809999943,
+      "atol": 0.0001,
+      "name": "dance1_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0028998013585805893,
+      "atol": 0.0001,
+      "name": "dance1_subject2",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00026009255088865757,
+      "atol": 0.0001,
+      "name": "dance1_subject3",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0025200936943292618,
+      "atol": 0.0001,
+      "name": "dance2_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.192825872451067e-05,
+      "atol": 0.0001,
+      "name": "dance2_subject2",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.471970558166504e-05,
+      "atol": 0.0001,
+      "name": "dance2_subject3",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.004998881835490465,
+      "atol": 0.0001,
+      "name": "dance2_subject4",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 9.702984243631363e-05,
+      "atol": 0.0001,
+      "name": "dance2_subject5",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.6487122997641563e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.5186450481414795e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject4",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0012029409408569336,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject5",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0027758441865444183,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject2",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0006564026698470116,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject3",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.007661253213882446,
+      "atol": 0.0001,
+      "name": "fallAndGetUp3_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0026474837213754654,
+      "atol": 0.0001,
+      "name": "fight1_subject2",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 9.64021310210228e-05,
+      "atol": 0.0001,
+      "name": "fight1_subject3",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0037782560102641582,
+      "atol": 0.0001,
+      "name": "fight1_subject5",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0017882082611322403,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0029016314074397087,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject4",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.008258562244009227,
+      "atol": 0.0001,
+      "name": "jumps1_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003300189506262541,
+      "atol": 0.0001,
+      "name": "jumps1_subject2",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00015861541032791138,
+      "atol": 0.0001,
+      "name": "jumps1_subject5",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 2.801930531859398e-05,
+      "atol": 0.0001,
+      "name": "run1_subject2",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0017085853032767773,
+      "atol": 0.0001,
+      "name": "run1_subject5",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0055554527789354324,
+      "atol": 0.0001,
+      "name": "run2_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.597140312194824e-05,
+      "atol": 0.0001,
+      "name": "run2_subject4",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.004947781562805176,
+      "atol": 0.0001,
+      "name": "sprint1_subject2",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0013107620179653168,
+      "atol": 0.0001,
+      "name": "sprint1_subject4",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.5766803193837404e-05,
+      "atol": 0.0001,
+      "name": "walk1_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.01014149934053421,
+      "atol": 0.0001,
+      "name": "walk1_subject2",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0015677687479183078,
+      "atol": 0.0001,
+      "name": "walk1_subject5",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.001368904486298561,
+      "atol": 0.0001,
+      "name": "walk2_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0023398157209157944,
+      "atol": 0.0001,
+      "name": "walk2_subject3",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.006113313836976886,
+      "atol": 0.0001,
+      "name": "walk2_subject4",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0033651646226644516,
+      "atol": 0.0001,
+      "name": "walk3_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 7.026083767414093e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject2",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.637613892555237e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject3",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.52468341588974e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject4",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.02557075023651123,
+      "atol": 0.0001,
+      "name": "walk3_subject5",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0037191063165664673,
+      "atol": 0.0001,
+      "name": "walk4_subject1",
+      "variant": "base",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.005143928341567516,
+      "atol": 0.0001,
+      "name": "dance1_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0028713271021842957,
+      "atol": 0.0001,
+      "name": "dance1_subject2",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0015155421569943428,
+      "atol": 0.0001,
+      "name": "dance1_subject3",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.008194569498300552,
+      "atol": 0.0001,
+      "name": "dance2_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.692755803465843e-05,
+      "atol": 0.0001,
+      "name": "dance2_subject2",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.477931022644043e-05,
+      "atol": 0.0001,
+      "name": "dance2_subject3",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0006380903068929911,
+      "atol": 0.0001,
+      "name": "dance2_subject4",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.008541868068277836,
+      "atol": 0.0001,
+      "name": "dance2_subject5",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.626305937767029e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.514811396598816e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject4",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.0066468752920628e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject5",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0033389851450920105,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject2",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.940107464790344e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject3",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.0220096707344055e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp3_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.001759849488735199,
+      "atol": 0.0001,
+      "name": "fight1_subject2",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.694610834121704e-05,
+      "atol": 0.0001,
+      "name": "fight1_subject3",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.005080913193523884,
+      "atol": 0.0001,
+      "name": "fight1_subject5",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0016536666080355644,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0009290443267673254,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject4",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.008264998148661107,
+      "atol": 0.0001,
+      "name": "jumps1_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0033143889158964157,
+      "atol": 0.0001,
+      "name": "jumps1_subject2",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.013478857930749655,
+      "atol": 0.0001,
+      "name": "jumps1_subject5",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 2.5989487767219543e-05,
+      "atol": 0.0001,
+      "name": "run1_subject2",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003887016326189041,
+      "atol": 0.0001,
+      "name": "run1_subject5",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.331878153607249e-05,
+      "atol": 0.0001,
+      "name": "run2_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00036945100873708725,
+      "atol": 0.0001,
+      "name": "run2_subject4",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00493350625038147,
+      "atol": 0.0001,
+      "name": "sprint1_subject2",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 2.7592293918132782e-05,
+      "atol": 0.0001,
+      "name": "sprint1_subject4",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.671366721391678e-05,
+      "atol": 0.0001,
+      "name": "walk1_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.005331598222255707,
+      "atol": 0.0001,
+      "name": "walk1_subject2",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0019319569692015648,
+      "atol": 0.0001,
+      "name": "walk1_subject5",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0021618464961647987,
+      "atol": 0.0001,
+      "name": "walk2_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002355799078941345,
+      "atol": 0.0001,
+      "name": "walk2_subject3",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.004763344768434763,
+      "atol": 0.0001,
+      "name": "walk2_subject4",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003375966101884842,
+      "atol": 0.0001,
+      "name": "walk3_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 6.628036499023438e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject2",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.6487897634506226e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject3",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00010732910595834255,
+      "atol": 0.0001,
+      "name": "walk3_subject4",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.2360275983810425e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject5",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0037499219179153442,
+      "atol": 0.0001,
+      "name": "walk4_subject1",
+      "variant": "base",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0051422035321593285,
+      "atol": 0.0001,
+      "name": "dance1_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002882152795791626,
+      "atol": 0.0001,
+      "name": "dance1_subject2",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0003818983677774668,
+      "atol": 0.0001,
+      "name": "dance1_subject3",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0036250962875783443,
+      "atol": 0.0001,
+      "name": "dance2_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00035912112889491254,
+      "atol": 0.0001,
+      "name": "dance2_subject2",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.623496741056442e-05,
+      "atol": 0.0001,
+      "name": "dance2_subject3",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0006378386169672012,
+      "atol": 0.0001,
+      "name": "dance2_subject4",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00130511075258255,
+      "atol": 0.0001,
+      "name": "dance2_subject5",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00011284276843070984,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.3398311138153076e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject4",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.618746995925903e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject5",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0030777528882026672,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject2",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0006494093686342239,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject3",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.007661491632461548,
+      "atol": 0.0001,
+      "name": "fallAndGetUp3_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0009949365630745888,
+      "atol": 0.0001,
+      "name": "fight1_subject2",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.6442652344703674e-05,
+      "atol": 0.0001,
+      "name": "fight1_subject3",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0050971428863704205,
+      "atol": 0.0001,
+      "name": "fight1_subject5",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0016521019861102104,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0022183441324159503,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject4",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.01815509796142578,
+      "atol": 0.0001,
+      "name": "jumps1_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0033116540871560574,
+      "atol": 0.0001,
+      "name": "jumps1_subject2",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0001558363437652588,
+      "atol": 0.0001,
+      "name": "jumps1_subject5",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.013501003384590149,
+      "atol": 0.0001,
+      "name": "run1_subject2",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.4255517423152924e-05,
+      "atol": 0.0001,
+      "name": "run1_subject5",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.518777132034302e-05,
+      "atol": 0.0001,
+      "name": "run2_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0003919447772204876,
+      "atol": 0.0001,
+      "name": "run2_subject4",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00493524968624115,
+      "atol": 0.0001,
+      "name": "sprint1_subject2",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0010917168110609055,
+      "atol": 0.0001,
+      "name": "sprint1_subject4",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0028798943385481834,
+      "atol": 0.0001,
+      "name": "walk1_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.849714994430542e-05,
+      "atol": 0.0001,
+      "name": "walk1_subject2",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0006087981164455414,
+      "atol": 0.0001,
+      "name": "walk1_subject5",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003043011762201786,
+      "atol": 0.0001,
+      "name": "walk2_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0020157406106591225,
+      "atol": 0.0001,
+      "name": "walk2_subject3",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.005434959894046187,
+      "atol": 0.0001,
+      "name": "walk2_subject4",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.4286251068115234e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 7.488206028938293e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject2",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.6356191635131836e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject3",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 6.198883056640625e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject4",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.1781535148620605e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject5",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003719612956047058,
+      "atol": 0.0001,
+      "name": "walk4_subject1",
+      "variant": "base",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003538012970238924,
+      "atol": 0.0001,
+      "name": "dance1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.004208095371723175,
+      "atol": 0.0001,
+      "name": "dance1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0033874521031975746,
+      "atol": 0.0001,
+      "name": "dance1_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0018257489427924156,
+      "atol": 0.0001,
+      "name": "dance2_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0007353036198765039,
+      "atol": 0.0001,
+      "name": "dance2_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0002490272745490074,
+      "atol": 0.0001,
+      "name": "dance2_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0020837532356381416,
+      "atol": 0.0001,
+      "name": "dance2_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002558560110628605,
+      "atol": 0.0001,
+      "name": "dance2_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.158683987043332e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0014578416012227535,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0007141876267269254,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00224487017840147,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.005410192767158151,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.057984113693237305,
+      "atol": 0.0001,
+      "name": "fallAndGetUp3_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00036504631862044334,
+      "atol": 0.0001,
+      "name": "fight1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 7.450440898537636e-05,
+      "atol": 0.0001,
+      "name": "fight1_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0009170770645141602,
+      "atol": 0.0001,
+      "name": "fight1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0018577601294964552,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.0096620321273804e-05,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.004339071998401778,
+      "atol": 0.0001,
+      "name": "jumps1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002758871763944626,
+      "atol": 0.0001,
+      "name": "jumps1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.004824122413992882,
+      "atol": 0.0001,
+      "name": "jumps1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.125999450683594e-05,
+      "atol": 0.0001,
+      "name": "run1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0028310189954936504,
+      "atol": 0.0001,
+      "name": "run1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0012294799089431763,
+      "atol": 0.0001,
+      "name": "run2_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.5434961318969727e-05,
+      "atol": 0.0001,
+      "name": "run2_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.004054085897223558,
+      "atol": 0.0001,
+      "name": "sprint1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.085153341293335e-05,
+      "atol": 0.0001,
+      "name": "sprint1_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003974834457039833,
+      "atol": 0.0001,
+      "name": "walk1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.007593467831611633,
+      "atol": 0.0001,
+      "name": "walk1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 2.8781592845916748e-05,
+      "atol": 0.0001,
+      "name": "walk1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.026324652135372e-05,
+      "atol": 0.0001,
+      "name": "walk2_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.577264189720154e-05,
+      "atol": 0.0001,
+      "name": "walk2_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.007083208998665214,
+      "atol": 0.0001,
+      "name": "walk2_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.884732723236084e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.049258470535278e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.1672028601169586e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.786641173064709e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0007555503398180008,
+      "atol": 0.0001,
+      "name": "walk3_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.8591365814208984e-05,
+      "atol": 0.0001,
+      "name": "walk4_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 0,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.03976944088935852,
+      "atol": 0.0001,
+      "name": "dance1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0038046687841415405,
+      "atol": 0.0001,
+      "name": "dance1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0006608739495277405,
+      "atol": 0.0001,
+      "name": "dance1_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002793355146422982,
+      "atol": 0.0001,
+      "name": "dance2_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.000770319951698184,
+      "atol": 0.0001,
+      "name": "dance2_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00014315638691186905,
+      "atol": 0.0001,
+      "name": "dance2_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0025794832035899162,
+      "atol": 0.0001,
+      "name": "dance2_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0024389484897255898,
+      "atol": 0.0001,
+      "name": "dance2_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.7614135837648064e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0015345921274274588,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0007119849324226379,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002229069359600544,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0054123986046761274,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.057984769344329834,
+      "atol": 0.0001,
+      "name": "fallAndGetUp3_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0020637037232518196,
+      "atol": 0.0001,
+      "name": "fight1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.632771015167236e-05,
+      "atol": 0.0001,
+      "name": "fight1_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0020603511948138475,
+      "atol": 0.0001,
+      "name": "fight1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.001452239928767085,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.21902334690094e-05,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.006437480449676514,
+      "atol": 0.0001,
+      "name": "jumps1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0035318114241817966,
+      "atol": 0.0001,
+      "name": "jumps1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00030659232288599014,
+      "atol": 0.0001,
+      "name": "jumps1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.01014728844165802,
+      "atol": 0.0001,
+      "name": "run1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0028263693675398827,
+      "atol": 0.0001,
+      "name": "run1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003442389133851975,
+      "atol": 0.0001,
+      "name": "run2_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.006495201669167727,
+      "atol": 0.0001,
+      "name": "run2_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0034361975267529488,
+      "atol": 0.0001,
+      "name": "sprint1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.312528133392334e-05,
+      "atol": 0.0001,
+      "name": "sprint1_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.005632330663502216,
+      "atol": 0.0001,
+      "name": "walk1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.007602114230394363,
+      "atol": 0.0001,
+      "name": "walk1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0010083205997943878,
+      "atol": 0.0001,
+      "name": "walk1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.391721449792385e-05,
+      "atol": 0.0001,
+      "name": "walk2_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.3798238039016724e-05,
+      "atol": 0.0001,
+      "name": "walk2_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.008864131523296237,
+      "atol": 0.0001,
+      "name": "walk2_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0011556558310985565,
+      "atol": 0.0001,
+      "name": "walk3_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.974512219429016e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0019267750903964043,
+      "atol": 0.0001,
+      "name": "walk3_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.0203332901000977e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.635805428028107e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.5775830333004706e-05,
+      "atol": 0.0001,
+      "name": "walk4_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 1,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0029378734761849046,
+      "atol": 0.0001,
+      "name": "dance1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003482626751065254,
+      "atol": 0.0001,
+      "name": "dance1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003390082623809576,
+      "atol": 0.0001,
+      "name": "dance1_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00182386115193367,
+      "atol": 0.0001,
+      "name": "dance2_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0013011796399950981,
+      "atol": 0.0001,
+      "name": "dance2_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00024594785645604134,
+      "atol": 0.0001,
+      "name": "dance2_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0025826646015048027,
+      "atol": 0.0001,
+      "name": "dance2_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.004101941362023354,
+      "atol": 0.0001,
+      "name": "dance2_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.0592742152512074e-05,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.001471786992624402,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0007094322936609387,
+      "atol": 0.0001,
+      "name": "fallAndGetUp1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002229024190455675,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.005411056103184819,
+      "atol": 0.0001,
+      "name": "fallAndGetUp2_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.057973384857177734,
+      "atol": 0.0001,
+      "name": "fallAndGetUp3_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002064819447696209,
+      "atol": 0.0001,
+      "name": "fight1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 7.030414417386055e-05,
+      "atol": 0.0001,
+      "name": "fight1_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002058860147371888,
+      "atol": 0.0001,
+      "name": "fight1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.001829249318689108,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.211386501789093e-05,
+      "atol": 0.0001,
+      "name": "fightAndSports1_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.006438314914703369,
+      "atol": 0.0001,
+      "name": "jumps1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.004210027836961672,
+      "atol": 0.0001,
+      "name": "jumps1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 6.188452243804932e-05,
+      "atol": 0.0001,
+      "name": "jumps1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0008862856775522232,
+      "atol": 0.0001,
+      "name": "run1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.002828777302056551,
+      "atol": 0.0001,
+      "name": "run1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0028259563259780407,
+      "atol": 0.0001,
+      "name": "run2_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.00649377255467698,
+      "atol": 0.0001,
+      "name": "run2_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.003035915084183216,
+      "atol": 0.0001,
+      "name": "sprint1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.255864769220352e-05,
+      "atol": 0.0001,
+      "name": "sprint1_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.005634608998661861,
+      "atol": 0.0001,
+      "name": "walk1_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.007594679482281208,
+      "atol": 0.0001,
+      "name": "walk1_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.0010079573839902878,
+      "atol": 0.0001,
+      "name": "walk1_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.704121965914965e-05,
+      "atol": 0.0001,
+      "name": "walk2_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.095265805721283e-05,
+      "atol": 0.0001,
+      "name": "walk2_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": false,
+      "max_abs": 0.007098514353856444,
+      "atol": 0.0001,
+      "name": "walk2_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 3.8430094718933105e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.0864571928977966e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject2",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.109181463718414e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject3",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 5.166977643966675e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject4",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.7869980335235596e-05,
+      "atol": 0.0001,
+      "name": "walk3_subject5",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    },
+    {
+      "passed": true,
+      "max_abs": 4.9952857807511464e-05,
+      "atol": 0.0001,
+      "name": "walk4_subject1",
+      "variant": "step_80862",
+      "sequence_seed": 2,
+      "initial_state_paired": true
+    }
+  ],
+  "usable_switch_windows": 4385,
+  "total_switch_windows": 13447
+}

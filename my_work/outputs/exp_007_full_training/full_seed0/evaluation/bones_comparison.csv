@@ -1,0 +1,5 @@
+stage,model,clips,tracking_score,failed,failure_rate,overflow_clips,overflow_steps
+rand2000,community_exp006,2000,0.9560830053284285,0,0.0,13,15
+rand2000,trained_exp007,2000,0.9566705722365428,0,0.0,21,21
+hard,community_exp006,130,0.7445887491052615,1,0.007692307692307693,3,3
+hard,trained_exp007,130,0.7472674911274165,4,0.03076923076923077,2,2

@@ -1,0 +1,29 @@
+{
+  "pid": 2287468,
+  "started_utc": "2026-11-15T18:00:03.420159+00:00",
+  "target_groups": 12,
+  "episodes_per_group": 40,
+  "state": "complete",
+  "gpu_sharing_authorized": true,
+  "updated_utc": "2026-11-15T18:29:50.062122+00:00",
+  "completed_groups": 12,
+  "current_group": "step_80862_mu2",
+  "other_gpu_processes": [
+    {
+      "pid": 2076785,
+      "memory_mib": "1614"
+    },
+    {
+      "pid": 2309291,
+      "memory_mib": "6186"
+    },
+    {
+      "pid": 2309293,
+      "memory_mib": "6114"
+    }
+  ],
+  "finished_utc": "2026-11-15T18:29:50.061970+00:00",
+  "episodes": 480,
+  "report": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/final_vs_community_new_frictions/analysis/RESULTS_ZH.md",
+  "original_policy_unchanged": true
+}

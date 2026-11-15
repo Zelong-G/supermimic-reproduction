@@ -1,0 +1,67 @@
+[
+  {
+    "path": "my_work/outputs/exp_006_bones_benchmark/summary.csv",
+    "bytes": 621,
+    "sha256": "f593b7b0bbb22f50ec48f4c9521dca9cafd5d274ddf857e21aad5e3f19441e73"
+  },
+  {
+    "path": "my_work/outputs/exp_007_full_training/full_seed0/evaluation/bones_comparison.csv",
+    "bytes": 351,
+    "sha256": "6028b4ae2944b0d7078750fd407295ee8b4df0970171a90a815797e9414d2b4a"
+  },
+  {
+    "path": "my_work/outputs/exp_007_full_training/full_seed0/evaluation/lafan1_comparison.csv",
+    "bytes": 167,
+    "sha256": "d83f3fe48966ec64017739fb906ee5355a081ef8cd8e271f319bd137098a70af"
+  },
+  {
+    "path": "my_work/outputs/exp_007_full_training/full_seed0/training_summary.json",
+    "bytes": 28418,
+    "sha256": "d5f92dbe10c18e4fcc522fdba9a2dba66443a596550c7f54ba07ed02818757bb"
+  },
+  {
+    "path": "my_work/outputs/exp_008_friction_adaptation/fixed_summary.csv",
+    "bytes": 6068,
+    "sha256": "b19ff3183b6e0cd922df52b61cb3d557154de811bb81895c20dc06f0fbea589c"
+  },
+  {
+    "path": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/final_vs_community_new_frictions/analysis/comparison.csv",
+    "bytes": 1666,
+    "sha256": "04a0ee94cee40dd30f461ee5c65af126967f0f29012a9e9b395852049e93bf21"
+  },
+  {
+    "path": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/final_vs_community_new_frictions/analysis/encoder_outputs.csv",
+    "bytes": 1119,
+    "sha256": "7830306bdac36ac5deb71b6e845c42fbea201e8a7d62180112b14b18de6dc332"
+  },
+  {
+    "path": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/final_vs_community_new_frictions/analysis/paired_effects.csv",
+    "bytes": 1280,
+    "sha256": "90a818e3bc945056f80656ca3ab7b7d1c8c3f502fe8200f99755592cefd48ac8"
+  },
+  {
+    "path": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/random_friction_final_vs_community/analysis/results.json",
+    "bytes": 62705,
+    "sha256": "8475000ee47319dac2e279649620dea8a6826ef92e261f77e7af15f0e759176b"
+  },
+  {
+    "path": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/sweep_5k_10k_20k_80862/analysis/comparison.csv",
+    "bytes": 3357,
+    "sha256": "e5bf5e364cca95cf502803d610bb3cafbb5895616038fdff59f76d11bab7c7f5"
+  },
+  {
+    "path": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/sweep_5k_10k_20k_80862/analysis/encoder_outputs.csv",
+    "bytes": 2764,
+    "sha256": "b346eed7dee2c91fcab0119678ccae27f6a1557b431616194cc8e0c745f73d1a"
+  },
+  {
+    "path": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/sweep_5k_10k_20k_80862/analysis/paired_effects.csv",
+    "bytes": 3934,
+    "sha256": "701e2ecdbe337c8e3e12ea921eaee78beaee389f440b36ab22d9318ecdd8b730"
+  },
+  {
+    "path": "my_work/outputs/exp_009_history_physics_adaptation/joint_6h_from5000/metrics.csv",
+    "bytes": 35264217,
+    "sha256": "c07b0a23131a8e36c3fbf961fefda9a90ec9f30d6b318e8830328ef8dedd12f9"
+  }
+]

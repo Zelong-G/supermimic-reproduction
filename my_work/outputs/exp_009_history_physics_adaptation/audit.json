@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "protected_sources_unchanged": true,
+  "protected_file_count": 140,
+  "pretrained_file_unchanged": true,
+  "learned_module_roundtrip_exact": true,
+  "joint_optimizer_roundtrip_exact": true,
+  "critic_optimizer_roundtrip_exact": true,
+  "critic_updated_confirmed": true,
+  "resume_restore_method_cpu_checked": true,
+  "cuda_rng_restore_call_checked_without_gpu_launch": true,
+  "trained_residual_disabled_action_equivalence_exact": true,
+  "full_size_validation_passed": true,
+  "fine_tuning_started": false,
+  "experiment_code_sha256": {
+    "validate.py": "efd221c873098c1ed86ed039169d245d7a1d59039030e29ac7c29acaf49861b1",
+    "models.py": "23fce462b420226b2be5f1cab36754433e11b755efea66f0847ee276d67861d4",
+    "train.py": "ccd538dfa449c454958b21dfc5a32ff40bcc9470e413be05ae576bac73d260d5",
+    "common.py": "a551a4c17d8307a5e8b1bb28f6e218c6ebdc6490178a621c05b432457924d597",
+    "eval_smoke.py": "137c1252d2d53fd42be05f8b0829e13b98c820a664cd9ad02080f49b0e6df2ff",
+    "report.py": "b2142936240d1963a07768f431a83b4675485a708ac9c02fc8e9ed1c8d14d0cc",
+    "memory_monitor.py": "5c0d90d6831af7dfbbbba3449bc69ef7f375addd3a00a94d18e9ac8b45d3ceb8",
+    "test_models.py": "262a9f92ae1674774918174292cf6b71865cc96a141e3572f3b57106eb16e435",
+    "evaluate.py": "fc26e2d3c1db63d371c00e43c615dcc8415c2178c796b501a1728becdd2f553b",
+    "joint.py": "fc612d48e0bcf90e707ef441591428a5172dcde8fb2700903dc27014eabc7c57",
+    "audit.py": "5cd10fcfeaa7dc012e544757d5401cc34ffe065745f6bf72fdd73f635ad4e9dc"
+  },
+  "experiment_configuration_sha256": "9d73663cbca371bd69203b4e0ebf7115f3ec66ef3f2d033f7ae30fb381698692",
+  "evaluation_interface_smoke_status": "passed",
+  "preexisting_dirty_file": "my_work/outputs/exp_007_full_training/full_seed0/monitor_status.json (present before this task; not edited here)",
+  "allowed_index_edit": "my_work/README.md"
+}

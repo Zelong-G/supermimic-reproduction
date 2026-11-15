@@ -1,7 +1,7 @@
 {
   "mode": "full",
   "seed": 0,
-  "status": "running",
+  "status": "completed",
   "started_at_utc": "2026-11-14T21:08:16.574671+00:00",
   "runtime": {
     "torch": "2.14.1+cu130",
@@ -93,5 +93,7 @@
     ],
     "dtype": "torch.float16",
     "sampled_rows": 64
-  }
+  },
+  "finished_at_utc": "2026-11-15T08:06:30.247025+00:00",
+  "wall_seconds": 39493.672375139024
 }

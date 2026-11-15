@@ -1,0 +1,20 @@
+{
+  "1": {
+    "default_ls20_score": 0.9800464856624603,
+    "ls80_score": 0.9800464633107185,
+    "max_state_difference": 5.597621202468872e-05,
+    "mean_root_pos_ls20": 0.03652622923254967,
+    "mean_root_pos_ls80": 0.036526404321193695,
+    "ls80_capacity_error_steps": 0,
+    "ls80_solver_limit_steps": 0
+  },
+  "0.3": {
+    "default_ls20_score": 0.9758357740938663,
+    "ls80_score": 0.9758356536924839,
+    "max_state_difference": 0.04628783464431763,
+    "mean_root_pos_ls20": 0.04638693854212761,
+    "mean_root_pos_ls80": 0.04638926684856415,
+    "ls80_capacity_error_steps": 0,
+    "ls80_solver_limit_steps": 0
+  }
+}

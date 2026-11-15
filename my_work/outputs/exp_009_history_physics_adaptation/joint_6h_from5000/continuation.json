@@ -1,0 +1,12 @@
+{
+  "parent_iteration": 5000,
+  "iteration_ceiling": 1000000000,
+  "max_hours_per_invocation": 6.0,
+  "time_limited_extension": true,
+  "training_sizes": {
+    "horizon": 32,
+    "batch": 2048,
+    "envs": 4096
+  },
+  "parent_checkpoint": "my_work/outputs/exp_009_history_physics_adaptation/joint_seed0/ckpt_0005000.pt"
+}

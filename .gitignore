@@ -58,6 +58,20 @@ events.out.tfevents.*
 /my_work/outputs/exp_007_full_training/**/metrics/scalars.csv
 /my_work/outputs/exp_007_full_training/**/*.tmp
 
+# Exp009: publish aggregate analysis, not step-level training/prediction traces.
+/my_work/outputs/exp_009_history_physics_adaptation/**/tb/
+/my_work/outputs/exp_009_history_physics_adaptation/**/friction_predictions.jsonl
+/my_work/outputs/exp_009_history_physics_adaptation/**/metrics.csv
+/my_work/outputs/exp_009_history_physics_adaptation/**/groups/
+/my_work/outputs/exp_009_history_physics_adaptation/evaluation/lafan1_joint5000*/
+/my_work/outputs/exp_009_history_physics_adaptation/evaluation/*pilot*/
+/my_work/outputs/exp_009_history_physics_adaptation/evaluation/final_vs_community_friction10/
+/my_work/outputs/**/*.tmp
+/my_work/outputs/**/*.lock
+
+# Local presentation handoff archives; the source reports/figures are committed.
+/my_work/presentation/*.zip
+
 # Python
 __pycache__/
 *.py[cod]

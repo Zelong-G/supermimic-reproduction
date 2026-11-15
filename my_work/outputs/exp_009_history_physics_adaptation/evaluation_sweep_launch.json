@@ -1,0 +1,6 @@
+{
+  "pid": 2389099,
+  "shared_gpu_authorized": true,
+  "log": "/storage/user/zheze/realmimic/my_work/outputs/exp_009_history_physics_adaptation/evaluation_sweep.log",
+  "status": "/storage/user/zheze/realmimic/my_work/outputs/exp_009_history_physics_adaptation/evaluation/sweep_5k_10k_20k_80862/status.json"
+}

@@ -1,0 +1,45 @@
+{
+  "controller_pid": 2125884,
+  "run_name": "joint_seed0",
+  "started_utc": "2026-11-15T07:38:04.783132+00:00",
+  "state": "stopped_user_taking_over_with_tmux",
+  "target_iterations": 5000,
+  "history": [],
+  "configuration": {
+    "pretrained": "weights/realmimic_g1_86k.pt",
+    "library": "my_work/outputs/exp_007_full_training/prepared_data/bones_paper.pt",
+    "seed": 0,
+    "iterations": 5000,
+    "checkpoint_interval": 250,
+    "alpha": 0.1,
+    "lambda_mu": 0.01,
+    "lambda_action": 0.003884747507957704,
+    "loss_weight_source": "validation/calibration.json; measured once before full training, never retuned on LAFAN1",
+    "early_stopping_patience": null,
+    "early_stopping_min_iterations": 500,
+    "early_stopping_min_delta": 0.001,
+    "eval_frictions": [
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ],
+    "eval_data": "data/npz/lafan1",
+    "eval_num_envs": 64
+  },
+  "child_pid": null,
+  "command": [
+    "bash",
+    "/storage/user/zheze/realmimic/my_work/experiments/exp_009_history_physics_adaptation/run.sh",
+    "train",
+    "--run-name",
+    "joint_seed0"
+  ],
+  "log": "my_work/outputs/exp_009_history_physics_adaptation/overnight_joint_seed0/training_attempt_1.log",
+  "updated_utc": "2026-11-15T07:40:19.599057+00:00",
+  "heartbeat_utc": "2026-11-15T07:39:19.799265+00:00",
+  "phase_elapsed_seconds": 75.01507902145386,
+  "checkpoint": "my_work/outputs/exp_009_history_physics_adaptation/joint_seed0/ckpt_0000003.pt",
+  "completed_training_iterations": 3,
+  "automatic_evaluation_cancelled": true
+}

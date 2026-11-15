@@ -188,6 +188,24 @@ my_work/outputs/exp_007_full_training/
 
 ## 7. 评测自己训练的模型
 
+与实验 006 已有社区权重结果比较（不重跑社区权重）：
+
+```bash
+.venv/bin/python my_work/experiments/exp_007_full_training/benchmark_bones.py rand2000
+.venv/bin/python my_work/experiments/exp_007_full_training/benchmark_bones.py hard
+```
+
+使用 `full_seed0/ckpt_latest.pt`、1024 个请求并行环境和 chunk size 2000，与实验 006 一致。
+脚本校验列表数量、MD5、数据文件及结果动作对应关系；拒绝覆盖已有输出。
+JSON、日志、运行元数据及 `BONES_REPORT.md` 保存到 `full_seed0/evaluation/`。
+仅重新汇总已有结果时执行：
+
+```bash
+.venv/bin/python my_work/experiments/exp_007_full_training/benchmark_bones.py analyze
+```
+
+这两个子集属于训练数据相关评测，不代表未见动作泛化；脚本不启动 full。
+
 先确认训练完成，再执行：
 
 ```bash

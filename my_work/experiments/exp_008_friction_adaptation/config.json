@@ -1,0 +1,160 @@
+{
+  "checkpoint": "weights/realmimic_g1_86k.pt",
+  "seed": 0,
+  "frictions": [
+    1.0,
+    0.7,
+    0.5,
+    0.3,
+    0.15
+  ],
+  "cases": [
+    {
+      "name": "walk1_subject1__seg000",
+      "category": "Walking",
+      "source": "walk1_subject1",
+      "path": "data/npz/lafan1_seg10/walk1_subject1__seg000.npz",
+      "frames": 500,
+      "yaw_range_deg": 18.567270278930664,
+      "historical_score": 0.9801809692382812,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "2f1ef2d6af7d607717727a0db0ab9ba22970b64fe6f1b86a0b8aeefc58d5883b"
+    },
+    {
+      "name": "walk1_subject2__seg000",
+      "category": "Walking",
+      "source": "walk1_subject2",
+      "path": "data/npz/lafan1_seg10/walk1_subject2__seg000.npz",
+      "frames": 500,
+      "yaw_range_deg": 117.42826843261719,
+      "historical_score": 0.9801997375488282,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "69d4b3d05f6a0f545e404bf5b0d2641538575783a221bd888d909333fd52e3ff"
+    },
+    {
+      "name": "walk1_subject5__seg000",
+      "category": "Walking",
+      "source": "walk1_subject5",
+      "path": "data/npz/lafan1_seg10/walk1_subject5__seg000.npz",
+      "frames": 500,
+      "yaw_range_deg": 367.2892150878906,
+      "historical_score": 0.9620046997070313,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "8e268a0db55f1e19ed584cd5b0fa0e36e6620fab19527c12878418be8d0b2ede"
+    },
+    {
+      "name": "dance1_subject1__seg000",
+      "category": "Dancing",
+      "source": "dance1_subject1",
+      "path": "data/npz/lafan1_seg10/dance1_subject1__seg000.npz",
+      "frames": 500,
+      "yaw_range_deg": 34.60919952392578,
+      "historical_score": 0.9592109680175781,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "27c25fe8efe7f26e44967d0f7a734921fd918368bfb489d91b3eaf9e7fb3feb2"
+    },
+    {
+      "name": "dance1_subject3__seg000",
+      "category": "Dancing",
+      "source": "dance1_subject3",
+      "path": "data/npz/lafan1_seg10/dance1_subject3__seg000.npz",
+      "frames": 500,
+      "yaw_range_deg": 9.177740097045898,
+      "historical_score": 0.9871076965332031,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "fcfc58565e10f4d698a628edeea4b2123699916bed8b4833e0eec52fee6eb26d"
+    },
+    {
+      "name": "dance2_subject4__seg005",
+      "category": "Dancing",
+      "source": "dance2_subject4",
+      "path": "data/npz/lafan1_seg10/dance2_subject4__seg005.npz",
+      "frames": 500,
+      "yaw_range_deg": 386.3498229980469,
+      "historical_score": 0.6857058715820312,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "e436d05e1028fba93586893ffd73ad473885209beb76aec75f149479cc1cd0ab"
+    },
+    {
+      "name": "fallAndGetUp1_subject1__seg000",
+      "category": "Fall-and-Get-Up",
+      "source": "fallAndGetUp1_subject1",
+      "path": "data/npz/lafan1_seg10/fallAndGetUp1_subject1__seg000.npz",
+      "frames": 500,
+      "yaw_range_deg": 146.9100341796875,
+      "historical_score": 0.6110235595703125,
+      "historical_failed": true,
+      "historical_overflow": 0,
+      "sha256": "86593960971cb74b6ea34712b6419722bc06d7534bf989023e9ebd6ba2e24403"
+    },
+    {
+      "name": "fallAndGetUp2_subject2__seg000",
+      "category": "Fall-and-Get-Up",
+      "source": "fallAndGetUp2_subject2",
+      "path": "data/npz/lafan1_seg10/fallAndGetUp2_subject2__seg000.npz",
+      "frames": 500,
+      "yaw_range_deg": 71.6942367553711,
+      "historical_score": 0.8107109832763671,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "f0cb32acadb385498afab93fbd06c69ca9f9366beaed889e05a3614c38e18994"
+    },
+    {
+      "name": "fallAndGetUp3_subject1__seg000",
+      "category": "Fall-and-Get-Up",
+      "source": "fallAndGetUp3_subject1",
+      "path": "data/npz/lafan1_seg10/fallAndGetUp3_subject1__seg000.npz",
+      "frames": 500,
+      "yaw_range_deg": 125.93294525146484,
+      "historical_score": 0.8831517791748047,
+      "historical_failed": true,
+      "historical_overflow": 0,
+      "sha256": "fe801c999d4447684fe6636cae72822c5d136fbbe365a64ea93592095c97fe25"
+    },
+    {
+      "name": "walk1_subject5__seg015",
+      "category": "Turning",
+      "source": "walk1_subject5",
+      "path": "data/npz/lafan1_seg10/walk1_subject5__seg015.npz",
+      "frames": 500,
+      "yaw_range_deg": 1087.1173095703125,
+      "historical_score": 0.8656917572021484,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "0b627ec5bb81c697d9fee351bd43291b9146190bf81dd7697302213580af5694"
+    },
+    {
+      "name": "walk3_subject5__seg003",
+      "category": "Turning",
+      "source": "walk3_subject5",
+      "path": "data/npz/lafan1_seg10/walk3_subject5__seg003.npz",
+      "frames": 500,
+      "yaw_range_deg": 844.2941284179688,
+      "historical_score": 0.909794921875,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "498c750acf0df2ef08b4ad6e6b80faa5b9803946238870228958a821b41391d4"
+    },
+    {
+      "name": "walk1_subject2__seg024",
+      "category": "Turning",
+      "source": "walk1_subject2",
+      "path": "data/npz/lafan1_seg10/walk1_subject2__seg024.npz",
+      "frames": 500,
+      "yaw_range_deg": 615.7127075195312,
+      "historical_score": 0.8931400299072265,
+      "historical_failed": false,
+      "historical_overflow": 0,
+      "sha256": "181a1a2ef6364fb1699f339ce8b236405b37cc529c1da23a16b308fb36af5f44"
+    }
+  ],
+  "switch_step": 150,
+  "protocol": "Existing independent 10 s LAFAN1 segments; full-segment denominator; stop on first termination; no noise or other DR; one deterministic seed, no pseudo-replicated seeds.",
+  "recovery": "First post-switch start of 50 consecutive steps with paired excess root position error <=0.05 m and excess orientation error <=0.10 rad; meaningful only after a prior violation, otherwise no detected disruption. Right-censored at failure or segment end."
+}

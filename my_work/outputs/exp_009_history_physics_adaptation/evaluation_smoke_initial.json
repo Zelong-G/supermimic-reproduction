@@ -1,0 +1,116 @@
+{
+  "status": "passed",
+  "scope": "Evaluation-interface smoke only: existing 10 s LAFAN1 segment at mu=.3; base vs residual-disabled scratch wrapper. Not full-clip benchmark or trained-adaptation result. No LAFAN1 optimization.",
+  "base": {
+    "name": "walk1_subject1__seg000",
+    "frames": 500,
+    "steps": 500,
+    "norm_return": 0.9758360290527344,
+    "norm_return_survived": 0.9758360290527344,
+    "failed": false,
+    "fail_step": -1,
+    "terms": null,
+    "overflow_steps": 17,
+    "first_overflow_step": -1,
+    "max_height_error": 0.028639256954193115,
+    "max_tilt_error": 0.005984365940093994
+  },
+  "residual_disabled": {
+    "name": "walk1_subject1__seg000",
+    "frames": 500,
+    "steps": 500,
+    "norm_return": 0.9758360290527344,
+    "norm_return_survived": 0.9758360290527344,
+    "failed": false,
+    "fail_step": -1,
+    "terms": null,
+    "overflow_steps": 21,
+    "first_overflow_step": -1,
+    "max_height_error": 0.02863919734954834,
+    "max_tilt_error": 0.005984365940093994
+  },
+  "diagnostics": [
+    {
+      "variant": "base",
+      "mu": 0.3,
+      "name": "walk1_subject1__seg000",
+      "seed": 0,
+      "frames": 500,
+      "steps": 500,
+      "norm_return": 0.9758360290527344,
+      "failed": false,
+      "friction_mae": null,
+      "mean_body_position_error_m": 0.05216537415981293,
+      "mean_joint_rmse_rad": 0.06889582425355911,
+      "overflow_steps": 17,
+      "capacity_overflow_steps": 0,
+      "foot_slip_velocity": null,
+      "foot_slip_note": "Not available: no validated contact-point velocity estimator",
+      "initial_state_sha256": "ea0d1ee58a363a00d0712e4e25c73baffb05b1af1ae757a08e0cd4c6cb583833"
+    },
+    {
+      "variant": "residual_disabled",
+      "mu": 0.3,
+      "name": "walk1_subject1__seg000",
+      "seed": 0,
+      "frames": 500,
+      "steps": 500,
+      "norm_return": 0.9758360290527344,
+      "failed": false,
+      "friction_mae": 0.4258577823638916,
+      "mean_body_position_error_m": 0.05216860771179199,
+      "mean_joint_rmse_rad": 0.06889563053846359,
+      "overflow_steps": 21,
+      "capacity_overflow_steps": 0,
+      "foot_slip_velocity": null,
+      "foot_slip_note": "Not available: no validated contact-point velocity estimator",
+      "initial_state_sha256": "ea0d1ee58a363a00d0712e4e25c73baffb05b1af1ae757a08e0cd4c6cb583833"
+    }
+  ],
+  "contact_proofs": [
+    {
+      "step": 1,
+      "active_contacts": 16,
+      "friction": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.004999999888241291,
+        9.999999747378752e-05,
+        9.999999747378752e-05
+      ],
+      "geoms": [
+        0,
+        14
+      ],
+      "efc_address": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "step": 1,
+      "active_contacts": 16,
+      "friction": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.004999999888241291,
+        9.999999747378752e-05,
+        9.999999747378752e-05
+      ],
+      "geoms": [
+        0,
+        14
+      ],
+      "efc_address": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "disabled_action_equivalence": "exact on every shared observation, checked inside evaluator",
+  "paired_initial_states": true
+}

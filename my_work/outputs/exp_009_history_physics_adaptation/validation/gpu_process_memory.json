@@ -1,0 +1,604 @@
+{
+  "pid": 1921549,
+  "status": "finished",
+  "peak_observed_process_mib": 18606,
+  "scope": "Observed nvidia-smi process allocation, attached during compile; see full_check.json for complete-update PyTorch peaks.",
+  "samples": [
+    {
+      "unix_time": 1794699028.4095688,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699029.4334512,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699030.4583795,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699031.483198,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699032.5083907,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699033.531222,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699034.5565267,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699035.5808973,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699036.6050916,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699037.630689,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699038.6551576,
+      "process_used_mib": 15412
+    },
+    {
+      "unix_time": 1794699039.6779354,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699040.7016702,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699041.7257352,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699042.7495892,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699043.7749138,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699044.7995646,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699045.8247793,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699046.8492699,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699047.999335,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699049.023059,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699050.0475488,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699051.0727522,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699052.1000617,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699053.1249268,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699054.149419,
+      "process_used_mib": 15414
+    },
+    {
+      "unix_time": 1794699055.1749287,
+      "process_used_mib": 15418
+    },
+    {
+      "unix_time": 1794699056.2032871,
+      "process_used_mib": 15522
+    },
+    {
+      "unix_time": 1794699057.2331514,
+      "process_used_mib": 15594
+    },
+    {
+      "unix_time": 1794699058.2602904,
+      "process_used_mib": 15680
+    },
+    {
+      "unix_time": 1794699059.2889433,
+      "process_used_mib": 15680
+    },
+    {
+      "unix_time": 1794699060.3134992,
+      "process_used_mib": 17660
+    },
+    {
+      "unix_time": 1794699061.3485332,
+      "process_used_mib": 17660
+    },
+    {
+      "unix_time": 1794699062.8808427,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699063.9049554,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699064.929421,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699065.9536345,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699066.9775214,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699068.002607,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699069.028814,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699070.054348,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699071.0787327,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699072.1032507,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699073.1275144,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699074.1518438,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699075.1764069,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699076.2004929,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699077.224421,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699078.249015,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699079.273943,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699080.3002925,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699081.3277745,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699082.3550305,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699083.3809237,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699084.4064558,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699085.431785,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699086.4576628,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699087.4826012,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699088.5100052,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699089.5338907,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699090.5590062,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699091.583778,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699092.609394,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699093.633741,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699094.65824,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699095.6908154,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699096.716036,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699097.7533834,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699098.7788508,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699099.8046443,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699100.8297718,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699101.8553386,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699102.8802705,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699103.9056427,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699104.9306982,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699105.9575825,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699107.0110075,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699108.036154,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699109.0611806,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699110.086424,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699111.1112566,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699112.135868,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699113.1608803,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699114.1857195,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699115.2096934,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699116.2338638,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699117.2595766,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699118.2841597,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699119.30889,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699120.336444,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699121.361695,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699122.3865478,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699123.4120224,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699124.4379368,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699125.4627883,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699126.4892378,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699127.5148575,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699128.5395083,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699129.562577,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699130.587683,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699131.6128294,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699132.637789,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699133.6625051,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699134.6882534,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699135.7130957,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699136.7379992,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699137.759532,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699138.783767,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699139.8093762,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699140.8331401,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699141.8585405,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699142.8834214,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699143.907121,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699144.9318733,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699146.0375168,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699147.0618722,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699148.0872934,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699149.1127174,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699150.1384294,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699151.1635103,
+      "process_used_mib": 18140
+    },
+    {
+      "unix_time": 1794699152.1885278,
+      "process_used_mib": 18144
+    },
+    {
+      "unix_time": 1794699153.2136512,
+      "process_used_mib": 18146
+    },
+    {
+      "unix_time": 1794699155.010741,
+      "process_used_mib": 18146
+    },
+    {
+      "unix_time": 1794699156.038533,
+      "process_used_mib": 18146
+    },
+    {
+      "unix_time": 1794699157.0666413,
+      "process_used_mib": 18146
+    },
+    {
+      "unix_time": 1794699158.0964983,
+      "process_used_mib": 18234
+    },
+    {
+      "unix_time": 1794699159.125936,
+      "process_used_mib": 18332
+    },
+    {
+      "unix_time": 1794699160.1540587,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699161.1821218,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699162.211507,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699163.239793,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699164.2682145,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699165.294229,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699166.319033,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699167.3446653,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699168.370023,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699169.8219335,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699170.8456926,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699171.87341,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699172.8978932,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699173.924138,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699174.9485714,
+      "process_used_mib": 18390
+    },
+    {
+      "unix_time": 1794699175.9753704,
+      "process_used_mib": 18606
+    },
+    {
+      "unix_time": 1794699176.999614,
+      "process_used_mib": 18606
+    },
+    {
+      "unix_time": 1794699178.0248883,
+      "process_used_mib": 18606
+    },
+    {
+      "unix_time": 1794699179.049929,
+      "process_used_mib": 18606
+    },
+    {
+      "unix_time": 1794699180.0750122,
+      "process_used_mib": 18606
+    },
+    {
+      "unix_time": 1794699181.100517,
+      "process_used_mib": 18606
+    },
+    {
+      "unix_time": 1794699182.125598,
+      "process_used_mib": 18606
+    }
+  ]
+}

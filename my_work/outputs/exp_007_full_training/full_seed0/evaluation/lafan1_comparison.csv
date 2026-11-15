@@ -1,0 +1,3 @@
+model,clips,tracking_score,failed,failure_rate,overflow_clips,overflow_steps
+community,40,0.6827383329454421,13,0.325,7,9
+trained,40,0.6389984049317885,16,0.4,8,11

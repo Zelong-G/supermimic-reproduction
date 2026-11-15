@@ -1,0 +1,16 @@
+{
+  "state": "running",
+  "shared_gpu_authorized": true,
+  "directory": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/sweep_5k_10k_20k_80862",
+  "status": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/sweep_5k_10k_20k_80862/status.json",
+  "log": "my_work/outputs/exp_009_history_physics_adaptation/evaluation_sweep.log",
+  "report_when_available": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/sweep_5k_10k_20k_80862/analysis/RESULTS_ZH.md",
+  "checkpoints": [
+    5000,
+    10000,
+    20000,
+    80862
+  ],
+  "planned_groups": 24,
+  "planned_episodes": 960
+}

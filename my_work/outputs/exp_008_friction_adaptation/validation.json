@@ -1,0 +1,862 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "stage": "fixed",
+      "name": "walk1_subject1__seg000",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject1__seg000",
+      "mu": 0.7,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject1__seg000",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject1__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject1__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg000",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg000",
+      "mu": 0.7,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg000",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg000",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg000",
+      "mu": 0.7,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg000",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject1__seg000",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject1__seg000",
+      "mu": 0.7,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject1__seg000",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject1__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject1__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject3__seg000",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject3__seg000",
+      "mu": 0.7,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject3__seg000",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject3__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance1_subject3__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance2_subject4__seg005",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance2_subject4__seg005",
+      "mu": 0.7,
+      "steps": 482,
+      "overflow_masks": {
+        "0": 482
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance2_subject4__seg005",
+      "mu": 0.5,
+      "steps": 478,
+      "overflow_masks": {
+        "0": 478
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance2_subject4__seg005",
+      "mu": 0.3,
+      "steps": 478,
+      "overflow_masks": {
+        "0": 478
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "dance2_subject4__seg005",
+      "mu": 0.15,
+      "steps": 473,
+      "overflow_masks": {
+        "0": 473
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp1_subject1__seg000",
+      "mu": 1.0,
+      "steps": 399,
+      "overflow_masks": {
+        "0": 399
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp1_subject1__seg000",
+      "mu": 0.7,
+      "steps": 393,
+      "overflow_masks": {
+        "0": 393
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp1_subject1__seg000",
+      "mu": 0.5,
+      "steps": 399,
+      "overflow_masks": {
+        "0": 399
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp1_subject1__seg000",
+      "mu": 0.3,
+      "steps": 396,
+      "overflow_masks": {
+        "0": 396
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp1_subject1__seg000",
+      "mu": 0.15,
+      "steps": 472,
+      "overflow_masks": {
+        "0": 472
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp2_subject2__seg000",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp2_subject2__seg000",
+      "mu": 0.7,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp2_subject2__seg000",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp2_subject2__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp2_subject2__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp3_subject1__seg000",
+      "mu": 1.0,
+      "steps": 493,
+      "overflow_masks": {
+        "0": 493
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp3_subject1__seg000",
+      "mu": 0.7,
+      "steps": 495,
+      "overflow_masks": {
+        "0": 495
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp3_subject1__seg000",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp3_subject1__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "fallAndGetUp3_subject1__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg015",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg015",
+      "mu": 0.7,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg015",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg015",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject5__seg015",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk3_subject5__seg003",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk3_subject5__seg003",
+      "mu": 0.7,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk3_subject5__seg003",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk3_subject5__seg003",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk3_subject5__seg003",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg024",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg024",
+      "mu": 0.7,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg024",
+      "mu": 0.5,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg024",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "fixed",
+      "name": "walk1_subject2__seg024",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "switch",
+      "name": "walk1_subject1__seg000",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "switch",
+      "name": "walk1_subject1__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "switch",
+      "name": "walk1_subject1__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "switch",
+      "name": "walk1_subject2__seg000",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "switch",
+      "name": "walk1_subject2__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "switch",
+      "name": "walk1_subject2__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "switch",
+      "name": "walk1_subject5__seg000",
+      "mu": 1.0,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "switch",
+      "name": "walk1_subject5__seg000",
+      "mu": 0.3,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    },
+    {
+      "stage": "switch",
+      "name": "walk1_subject5__seg000",
+      "mu": 0.15,
+      "steps": 500,
+      "overflow_masks": {
+        "0": 500
+      },
+      "capacity_errors": 0,
+      "solver_limit_steps": 0
+    }
+  ],
+  "switch_pairing_audit": {
+    "tolerance": 0.0001,
+    "attempted_clips": 3,
+    "eligible_clips": [
+      "walk1_subject1__seg000"
+    ],
+    "excluded_clips": [
+      "walk1_subject2__seg000",
+      "walk1_subject5__seg000"
+    ],
+    "details": [
+      {
+        "name": "walk1_subject1__seg000",
+        "eligible": true,
+        "prefix_differences": {
+          "control_repeat": {
+            "states": 5.170702934265137e-05,
+            "history": 5.170702934265137e-05,
+            "goal": 4.735775291919708e-07,
+            "actions": 4.649162292480469e-06,
+            "reward": 1.4901161193847656e-08
+          },
+          "switch_0.3": {
+            "states": 4.6603381633758545e-05,
+            "history": 4.6603381633758545e-05,
+            "goal": 4.773028194904327e-07,
+            "actions": 4.76837158203125e-06,
+            "reward": 1.4901161193847656e-08
+          },
+          "switch_0.15": {
+            "states": 3.35201621055603e-05,
+            "history": 3.35201621055603e-05,
+            "goal": 4.7171488404273987e-07,
+            "actions": 3.0994415283203125e-06,
+            "reward": 1.4901161193847656e-08
+          }
+        },
+        "reason": "passes predeclared 1e-4 absolute prefix tolerance"
+      },
+      {
+        "name": "walk1_subject2__seg000",
+        "eligible": false,
+        "prefix_differences": {
+          "control_repeat": {
+            "states": 0.017425313591957092,
+            "history": 0.017425313591957092,
+            "goal": 3.313086926937103e-05,
+            "actions": 0.0005680173635482788,
+            "reward": 3.8743019104003906e-07
+          },
+          "switch_0.3": {
+            "states": 0.0174286849796772,
+            "history": 0.0174286849796772,
+            "goal": 3.363750874996185e-05,
+            "actions": 0.0005682706832885742,
+            "reward": 3.8743019104003906e-07
+          },
+          "switch_0.15": {
+            "states": 0.017427761107683182,
+            "history": 0.017427761107683182,
+            "goal": 3.355368971824646e-05,
+            "actions": 0.0005690455436706543,
+            "reward": 3.8743019104003906e-07
+          }
+        },
+        "reason": "control repeat or intervention prefix exceeds predeclared tolerance; excluded from online-response inference"
+      },
+      {
+        "name": "walk1_subject5__seg000",
+        "eligible": false,
+        "prefix_differences": {
+          "control_repeat": {
+            "states": 0.0011297576129436493,
+            "history": 0.0011297576129436493,
+            "goal": 2.3562461137771606e-06,
+            "actions": 9.751319885253906e-05,
+            "reward": 1.4901161193847656e-08
+          },
+          "switch_0.3": {
+            "states": 3.3444492146372795e-05,
+            "history": 3.3444492146372795e-05,
+            "goal": 3.6135315895080566e-07,
+            "actions": 6.452202796936035e-06,
+            "reward": 1.4901161193847656e-08
+          },
+          "switch_0.15": {
+            "states": 0.001580948824994266,
+            "history": 0.001580948824994266,
+            "goal": 3.4831464290618896e-06,
+            "actions": 9.775161743164062e-05,
+            "reward": 2.2351741790771484e-08
+          }
+        },
+        "reason": "control repeat or intervention prefix exceeds predeclared tolerance; excluded from online-response inference"
+      }
+    ]
+  },
+  "notes": "Verified history last-action and joint-velocity alignment, paired initial states, actual active-contact friction, full-horizon score arithmetic, finite data, first-done stopping. Switch prefix gate applies to the eligible subset; attempted clips failing it remain recorded and are excluded from online-response inference. Nonzero bitmasks are classified, not assumed to imply lost contacts."
+}

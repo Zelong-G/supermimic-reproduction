@@ -1,0 +1,44 @@
+{
+  "source_sha256": {
+    "src/supermimic/policy/nets.py": "7569d45423303040841e909da25b5e5dd93683bb6e278848534b44af623bc06e",
+    "src/supermimic/envs/tracking_env_cfg.py": "70f2d11a4b4b3bc46b100f3eb2de6035427070d92d1b3dc7c0d9a5cbe82c3c70",
+    "scripts/eval_benchmark.py": "8002705a17705bc83b516f68760e954a2bce832f37445a4f071ad8b8e9a007e7",
+    "src/supermimic/eval/benchmark.py": "3ba9d92ed5fc11d533c6b6fad00e9e0bbadd3070fd1e54ce21130a58be3f1e96",
+    "src/supermimic/envs/mdp/observations.py": "b51e3d90e77c6f5961d47bfe77302d2e4766a0f64b75a4d82cfcc9065b9be156",
+    "src/supermimic/goal_spec.py": "2db30dd544a5f4bce18e0451398e8c61e515796c44337ef9600051e2b259e38c",
+    ".venv/lib/python3.12/site-packages/mjlab/envs/mdp/dr/geom.py": "634dfe88eb5118d48708b9851cb42e9c9b38bf83b2f11b194686b644806f66a1",
+    ".venv/lib/python3.12/site-packages/mujoco_warp/_src/collision_core.py": "55bfdc244254624d61c228d70d4fd4dc0d2d6af60af40c6e8ed16e47315e2ea6"
+  },
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "mujoco": "3.16.0",
+    "mujoco-warp": "3.16.0",
+    "warp-lang": "1.18.0",
+    "mjlab": "1.6.0",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "git_head": "6d7cc7714ea32690e9df7ae31757b764866c0e77",
+  "policy_input": {
+    "history_dim": 930,
+    "goal_dim": 650,
+    "history_frames": 10,
+    "history_span_s": 0.18,
+    "sampling_interval_s": 0.02,
+    "xi_input": false
+  },
+  "contact_rule": "Feet priority 1 exceeds terrain priority 0; 14 foot tangential coefficients control foot-ground contacts; terrain unchanged; no explicit pairs; condim3",
+  "training_friction_range": [
+    0.3,
+    1.2
+  ],
+  "training_range_basis": "Installed community environment source and checkpoint domain_randomization=True; exact original training source revision / corpus cannot independently be authenticated from weights.",
+  "standard_evaluation_mu": 1.0,
+  "policy_and_world_model_training": false,
+  "datasets_used": [
+    "existing LAFAN1 NPZ and seg10 NPZ"
+  ],
+  "preexisting_dirty_file": "my_work/outputs/exp_007_full_training/full_seed0/monitor_status.json (present before this task; not edited by Experiment008)",
+  "official_reference": "https://mujoco.readthedocs.io/en/stable/modeling.html#contact-parameters",
+  "dataset_downloads": false
+}

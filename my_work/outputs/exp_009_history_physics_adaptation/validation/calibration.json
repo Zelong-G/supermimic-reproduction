@@ -1,0 +1,55 @@
+{
+  "lambda_mu": 0.01,
+  "lambda_action": 0.003884747507957704,
+  "basis": "Four-step, eight-start real BONES-SEED gradient diagnostic, never LAFAN1. Target supervised encoder gradient about 10% of tracking adapter gradient; raw-residual regularizer about 1%, bounded mu weight [0.01,10], action weight [1e-5,1]. Fixed thereafter; provisional defaults rather than reward-tuned hyperparameters.",
+  "initial_zero_adapter": {
+    "tracking": {
+      "value": -9.53053092956543,
+      "gradients": {
+        "encoder": 0.0,
+        "adapter": 0.01222684234380722
+      }
+    },
+    "friction": {
+      "value": 0.085636205971241,
+      "gradients": {
+        "encoder": 0.3414941728115082,
+        "adapter": 0.000747077981941402
+      }
+    },
+    "raw_residual_regularization": {
+      "value": 0.0,
+      "gradients": {
+        "encoder": 0.0,
+        "adapter": 0.0
+      }
+    }
+  },
+  "temporary_nonzero_output_layer": {
+    "tracking": {
+      "value": -9.536221504211426,
+      "gradients": {
+        "encoder": 2.849513521141489e-06,
+        "adapter": 0.010515550151467323
+      }
+    },
+    "friction": {
+      "value": 0.0849471464753151,
+      "gradients": {
+        "encoder": 0.3414955139160156,
+        "adapter": 0.0007809435483068228
+      }
+    },
+    "raw_residual_regularization": {
+      "value": 0.00018078365246765316,
+      "gradients": {
+        "encoder": 4.4060166146664415e-06,
+        "adapter": 0.027068812400102615
+      }
+    }
+  },
+  "tracking_to_wm_next_gradient_norm": 1.0303287506103516,
+  "wm_next_to_encoder_gradient_norm": 2.1107134671183303e-05,
+  "context_audit_calls": 8,
+  "encoder_recomputed_steps": 4
+}

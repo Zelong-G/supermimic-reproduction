@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "features": "Single frame",
+      "mae": 0.26267989530949476,
+      "rmse": 0.3144530182905193,
+      "r2_vs_train_mean": -0.10357924901805471,
+      "source_mean_mae": 0.26452517758748895,
+      "source_bootstrap_low": 0.25676029727777483,
+      "source_bootstrap_high": 0.27354007089379173,
+      "source_mae": {
+        "dance1_subject1": 0.2586901931320995,
+        "dance1_subject3": 0.2737621898055712,
+        "dance2_subject4": 0.28420213964140184,
+        "fallAndGetUp1_subject1": 0.28671953914785037,
+        "fallAndGetUp2_subject2": 0.27515493477225944,
+        "fallAndGetUp3_subject1": 0.25408136936247916,
+        "walk1_subject1": 0.2495069917110195,
+        "walk1_subject2": 0.2560340003695326,
+        "walk1_subject5": 0.250872967469515,
+        "walk3_subject5": 0.2562274504631611
+      },
+      "samples": 5565,
+      "episodes": 60,
+      "source_groups": 10,
+      "folds": 3,
+      "alpha": 100
+    },
+    {
+      "features": "10-frame history",
+      "mae": 0.2779878091364077,
+      "rmse": 0.3402449894521468,
+      "r2_vs_train_mean": -0.29203853624209275,
+      "source_mean_mae": 0.2817967065440043,
+      "source_bootstrap_low": 0.2631386055374316,
+      "source_bootstrap_high": 0.3056349943499463,
+      "source_mae": {
+        "dance1_subject1": 0.2618297555219043,
+        "dance1_subject3": 0.28197527178288895,
+        "dance2_subject4": 0.3113066769752369,
+        "fallAndGetUp1_subject1": 0.3672822476579254,
+        "fallAndGetUp2_subject2": 0.30487384545679974,
+        "fallAndGetUp3_subject1": 0.261471407797617,
+        "walk1_subject1": 0.24820093020981476,
+        "walk1_subject2": 0.2549217822301149,
+        "walk1_subject5": 0.2629648619667337,
+        "walk3_subject5": 0.26314028584100757
+      },
+      "samples": 5565,
+      "episodes": 60,
+      "source_groups": 10,
+      "folds": 3,
+      "alpha": 100
+    }
+  ],
+  "baseline": {
+    "features": "Training-mean baseline",
+    "mae": 0.25599999999999995,
+    "rmse": 0.2993325909419153,
+    "r2_vs_train_mean": 0.0,
+    "source_mean_mae": 0.25599999999999995,
+    "source_bootstrap_low": 0.25599999999999995,
+    "source_bootstrap_high": 0.256,
+    "source_mae": {
+      "dance1_subject1": 0.25599999999999995,
+      "dance1_subject3": 0.256,
+      "dance2_subject4": 0.25599999999999995,
+      "fallAndGetUp1_subject1": 0.25599999999999995,
+      "fallAndGetUp2_subject2": 0.256,
+      "fallAndGetUp3_subject1": 0.256,
+      "walk1_subject1": 0.25599999999999995,
+      "walk1_subject2": 0.256,
+      "walk1_subject5": 0.25599999999999995,
+      "walk3_subject5": 0.25599999999999995
+    },
+    "samples": 5565,
+    "episodes": 60,
+    "source_groups": 10,
+    "folds": 3,
+    "alpha": null
+  },
+  "fold_assignment": {
+    "dance1_subject1": 0,
+    "dance1_subject3": 1,
+    "dance2_subject4": 2,
+    "fallAndGetUp1_subject1": 0,
+    "fallAndGetUp2_subject2": 1,
+    "fallAndGetUp3_subject1": 2,
+    "walk1_subject1": 0,
+    "walk1_subject2": 1,
+    "walk1_subject5": 2,
+    "walk3_subject5": 0
+  },
+  "protocol": "Source-motion grouped 3-fold cross-validation; all friction conditions and segments from a source remain in one fold. Common surviving time prefix across all 5 frictions per clip; stride 5, omit first 0.5 s; training-only standardization; ridge alpha=100 fixed; no clipping. Exploratory information probe, not control improvement or causal identification."
+}

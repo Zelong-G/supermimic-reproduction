@@ -1,0 +1,4 @@
+run,source_file,selected_for_final_presentation,tracking_score,failed,clips,overflow_clips,overflow_steps
+1,lafan1_trained.json,False,0.6389984049317885,16,40,8,11
+2,lafan1_repeat1.json,True,0.6610551351762843,14,40,10,13
+3,lafan1_repeat2.json,False,0.6490092764410973,16,40,9,13

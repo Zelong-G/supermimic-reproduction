@@ -1,5 +1,22 @@
 # Experiment 007: Held-out LAFAN1 Comparison
 
+## Selected final presentation result
+
+**Selected run: evaluation 2, `lafan1_repeat1.json`. Tracking score: 0.661055; failed: 14 / 40 (35.0%).**
+
+Selected at the researcher's request after reviewing all three repeats. This is the highest-scoring repeat, not the repeat mean or a preselected independent test. All original JSON files are retained.
+
+| Evaluation | Source | Tracking score | Failed / total | Presentation selection |
+|---|---|---:|---:|---|
+| 1 | `lafan1_trained.json` | 0.638998 | 16 / 40 | Retained repeat |
+| 2 | `lafan1_repeat1.json` | 0.661055 | 14 / 40 | Selected final presentation result |
+| 3 | `lafan1_repeat2.json` | 0.649009 | 16 / 40 | Retained repeat |
+
+Across all three repeats: mean 0.649688, sample standard deviation 0.011044. The selected run recorded 10 capacity-affected clips / 13 overflow steps. This selection does not establish superiority or equivalence to the community model.
+
+The comparison table and per-motion CSV below describe the original first evaluation, retained for provenance. `lafan1_repeats.csv` explicitly marks the selected result.
+
+## Original first-run comparison
 Both evaluations completed successfully on the same 40 full sequences (matching names and frame counts). Raw policy weights, 86,000-iteration checkpoints, CUDA:0, requested num_envs=512 (community evaluator caps actual environments to 40), no chunking. The evaluator uses seed=0, start-of-clip initialization, termination enabled, and disables observation/reset/action noise and domain randomization. No training or parameter updates were performed.
 
 | Model | Tracking score | Failed / total | Failure rate | Overflow clips / steps |

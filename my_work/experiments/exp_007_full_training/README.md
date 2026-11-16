@@ -188,6 +188,11 @@ my_work/outputs/exp_007_full_training/
 
 ## 7. 评测自己训练的模型
 
+LAFAN1 最终展示结果选用第二次评测 `lafan1_repeat1.json`：**Tracking Score 0.661055，14/40 失败**。
+这是查看三次重复后选定的最高分，不是三次平均值；三次原始结果均保留。
+三次得分为 0.638998、0.661055、0.649009，均值 ± 样本标准差为 0.649688 ± 0.011044。
+详见 `full_seed0/evaluation/LAFAN1_REPORT.md` 和 `lafan1_repeats.csv`；原对比表及逐动作 CSV 仍对应第一次评测。
+
 与实验 006 已有社区权重结果比较（不重跑社区权重）：
 
 ```bash

@@ -1,0 +1,21 @@
+{
+  "pid": 2720356,
+  "started_utc": "2026-11-15T23:18:00.292099+00:00",
+  "target_groups": 2,
+  "episodes_per_group": 40,
+  "state": "complete",
+  "gpu_sharing_authorized": true,
+  "updated_utc": "2026-11-15T23:22:12.989640+00:00",
+  "completed_groups": 2,
+  "current_group": "step_80862_mu1.3",
+  "other_gpu_processes": [
+    {
+      "pid": 2076785,
+      "memory_mib": "1680"
+    }
+  ],
+  "finished_utc": "2026-11-15T23:22:12.989500+00:00",
+  "episodes": 80,
+  "report": "my_work/outputs/exp_009_history_physics_adaptation/evaluation/final_vs_community_mu1_3/analysis/RESULTS_ZH.md",
+  "original_policy_unchanged": true
+}

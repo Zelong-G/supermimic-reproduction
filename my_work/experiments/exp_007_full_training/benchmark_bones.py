@@ -24,8 +24,9 @@ def digest(path, algorithm):
 def analyze():
     rows = []
     failures = []
-    for stage in SETS:
-        path = OUT / f'{stage}.json'
+    sources = {stage: OUT / f'{stage}.json' for stage in SETS}
+    sources['full'] = OUT / 'full_retry.json'
+    for stage, path in sources.items():
         if not path.exists():
             continue
         baseline = json.loads((BASE / f'{stage}.json').read_text())
@@ -50,7 +51,7 @@ def analyze():
                                  ('bones_failures.csv', failures,
                                   ['stage','model','motion','fail_step','overflow_steps'])]:
         with (OUT/name).open('w', newline='') as f:
-            w=csv.DictWriter(f, fieldnames=fields); w.writeheader(); w.writerows(items)
+            w=csv.DictWriter(f, fieldnames=fields, lineterminator='\n'); w.writeheader(); w.writerows(items)
     report = ['# Experiment 007: BONES-SEED Benchmark', '',
               'Community results are reused from Experiment 006; community weights were not rerun.',
               'BONES-SEED is training-related data, not held-out generalization. Raw policy weights; same community evaluator.', '',
@@ -58,8 +59,12 @@ def analyze():
               '|---|---|---:|---:|---:|---:|']
     for r in rows:
         report.append(f"| {r['stage']} | {r['model']} | {r['tracking_score']:.6f} | {r['failed']} / {r['clips']} | {r['failure_rate']:.4%} | {r['overflow_clips']} / {r['overflow_steps']} |")
-    report += ['', 'Clip names and frame counts match the archived baselines. Solver capacity overflow and run-to-run variation limit causal interpretation. The new runs share the GPU with another evaluation (recorded in run metadata). No full-set benchmark was started.', '',
-               'Exact commands, list/checkpoint hashes, timestamps, code commit, GPU processes and exit codes are in each *_run.json. See bones_failures.csv for failed motions.']
+    report += ['', 'Clip names and frame counts match the archived baselines. Solver capacity overflow and run-to-run variation limit causal interpretation. The rand2000/hard runs shared the GPU with another evaluation (recorded in run metadata).', '',
+               'For rand2000/hard, commands, hashes, timestamps and exit codes are in *_run.json. See bones_failures.csv for failed motions.']
+    if sources['full'].exists():
+        report += ['', '## Full benchmark provenance', '',
+                   'The original full run failed with CUDA out-of-memory after 52,000 completed clips; no final JSON was saved. The successful retry is full_retry.json (129,491 motions). The retry command used --num-envs 512 --chunk-size 1000, compared with 1024 / 2000 for the archived community baseline. These changed parallel settings may affect numerical outcomes. A structured run metadata file was not captured for the retry; do not infer exact timing or GPU exclusivity.', '',
+                   'Both use the community evaluator, raw policy weights, the G1 robot, freeze_clip_end=true, and data/bench/full.txt. The new checkpoint is full_seed0/ckpt_latest.pt at iteration 86,000. Raw JSON and full logs remain local; only aggregate results and the small failure list are published.']
     if failures:
         report += ['', '## Failed motions', '']
         report += [f"- {r['stage']} / {r['model']}: {r['motion']}, failure step {r['fail_step']}, overflow steps {r['overflow_steps']}." for r in failures]

@@ -1,0 +1,3 @@
+variant,mu,episodes,mean_return,failures,failure_rate,mean_body_position_error_m,mean_joint_rmse_rad,friction_mae,capacity_affected_episodes,solver_limit_steps,wall_seconds,other_gpu_process_seen_at_end
+base,1.3,40,0.6882725233589626,11,0.275,1.4667403446510434,0.12480546552687884,,0,6,122.81343210698105,True
+step_80862,1.3,40,0.670675844163366,13,0.325,1.4013357734307648,0.12472441419959068,0.46646276861429214,0,3,126.68321504298365,True
